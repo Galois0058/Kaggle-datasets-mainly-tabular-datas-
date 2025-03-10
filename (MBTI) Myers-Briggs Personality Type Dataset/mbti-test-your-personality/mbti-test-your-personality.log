@@ -1,0 +1,408 @@
+[{"stream_name":"stdout","time":15.556368082,"data":"\u003cclass 'pandas.core.frame.DataFrame'\u003e\n"}
+,{"stream_name":"stdout","time":15.55641103,"data":"RangeIndex: 8675 entries, 0 to 8674\n"}
+,{"stream_name":"stdout","time":15.556418752,"data":"Data columns (total 2 columns):\n"}
+,{"stream_name":"stdout","time":15.556423563,"data":" #   Column  Non-Null Count  Dtype \n"}
+,{"stream_name":"stdout","time":15.556427863,"data":"---  ------  --------------  ----- \n"}
+,{"stream_name":"stdout","time":15.556432166,"data":" 0   type    8675 non-null   object\n"}
+,{"stream_name":"stdout","time":15.5564362,"data":" 1   posts   8675 non-null   object\n"}
+,{"stream_name":"stdout","time":15.556440309,"data":"dtypes: object(2)\n"}
+,{"stream_name":"stdout","time":15.556444121,"data":"memory usage: 135.7+ KB\n"}
+,{"stream_name":"stderr","time":22.580080809000002,"data":"\r  0%|          | 0/6940 [00:00\u003c?, ?it/s]\r  1%|®á         | 102/6940 [00:00\u003c00:06, 1018.48it/s]\r  3%|®Ü         | 213/6940 [00:00\u003c00:06, 1065.60it/s]\r  5%|®Ö         | 320/6940 [00:00\u003c00:06, 1049.36it/s]\r  6%|®Ñ         | 425/6940 [00:00\u003c00:06, 1028.29it/s]\r  8%|®Ç         | 532/6940 [00:00\u003c00:06, 1039.25it/s]\r  9%|®Å         | 639/6940 [00:00\u003c00:06, 1049.35it/s]\r 11%|®Ä         | 746/6940 [00:00\u003c00:05, 1052.35it/s]\r 12%|®Ä®á        | 854/6940 [00:00\u003c00:05, 1060.03it/s]\r 14%|®Ä®Ö        | 967/6940 [00:00\u003c00:05, 1078.75it/s]\r 16%|®Ä®Ñ        | 1078/6940 [00:01\u003c00:05, 1086.85it/s]\r 17%|®Ä®É        | 1192/6940 [00:01\u003c00:05, 1102.16it/s]\r 19%|®Ä®Å        | 1303/6940 [00:01\u003c00:05, 1099.35it/s]\r 20%|®Ä®Ä        | 1413/6940 [00:01\u003c00:05, 1099.52it/s]\r 22%|®Ä®Ä®á       | 1527/6940 [00:01\u003c00:04, 1109.20it/s]\r 24%|®Ä®Ä®Ü       | 1638/6940 [00:01\u003c00:04, 1105.99it/s]\r 25%|®Ä®Ä®Ñ       | 1754/6940 [00:01\u003c00:04, 1121.73it/s]\r 27%|®Ä®Ä®É       | 1867/6940 [00:01\u003c00:04, 1120.52it/s]\r 29%|®Ä®Ä®Ç       | 1980/6940 [00:01\u003c00:04, 1114.13it/s]\r 30%|®Ä®Ä®Ä       | 2094/6940 [00:01\u003c00:04, 1119.19it/s]\r 32%|®Ä®Ä®Ä®á      | 2207/6940 [00:02\u003c00:04, 1120.98it/s]\r 33%|®Ä®Ä®Ä®Ü      | 2324/6940 [00:02\u003c00:04, 1135.33it/s]\r 35%|®Ä®Ä®Ä®Ñ      | 2438/6940 [00:02\u003c00:03, 1133.80it/s]\r 37%|®Ä®Ä®Ä®É      | 2552/6940 [00:02\u003c00:03, 1129.16it/s]\r 38%|®Ä®Ä®Ä®Ç      | 2665/6940 [00:02\u003c00:03, 1129.38it/s]\r 40%|®Ä®Ä®Ä®Ä      | 2780/6940 [00:02\u003c00:03, 1134.94it/s]\r 42%|®Ä®Ä®Ä®Ä®á     | 2894/6940 [00:02\u003c00:03, 1121.29it/s]\r 43%|®Ä®Ä®Ä®Ä®Ü     | 3007/6940 [00:02\u003c00:03, 1117.47it/s]\r 45%|®Ä®Ä®Ä®Ä®Ö     | 3119/6940 [00:02\u003c00:03, 1117.54it/s]\r 47%|®Ä®Ä®Ä®Ä®É     | 3231/6940 [00:02\u003c00:03, 1108.21it/s]\r 48%|®Ä®Ä®Ä®Ä®Ç     | 3342/6940 [00:03\u003c00:03, 1104.59it/s]\r 50%|®Ä®Ä®Ä®Ä®Å     | 3453/6940 [00:03\u003c00:03, 1104.24it/s]\r 51%|®Ä®Ä®Ä®Ä®Ä®á    | 3565/6940 [00:03\u003c00:03, 1106.96it/s]\r 53%|®Ä®Ä®Ä®Ä®Ä®Ü    | 3679/6940 [00:03\u003c00:02, 1115.39it/s]\r 55%|®Ä®Ä®Ä®Ä®Ä®Ö    | 3791/6940 [00:03\u003c00:02, 1109.50it/s]\r 56%|®Ä®Ä®Ä®Ä®Ä®Ñ    | 3902/6940 [00:03\u003c00:02, 1107.32it/s]\r 58%|®Ä®Ä®Ä®Ä®Ä®Ç    | 4013/6940 [00:03\u003c00:02, 1092.67it/s]\r 59%|®Ä®Ä®Ä®Ä®Ä®Å    | 4123/6940 [00:03\u003c00:02, 1083.54it/s]\r 61%|®Ä®Ä®Ä®Ä®Ä®Ä    | 4237/6940 [00:03\u003c00:02, 1099.37it/s]\r 63%|®Ä®Ä®Ä®Ä®Ä®Ä®Ü   | 4347/6940 [00:03\u003c00:02, 1085.33it/s]\r 64%|®Ä®Ä®Ä®Ä®Ä®Ä®Ö   | 4456/6940 [00:04\u003c00:02, 1085.06it/s]\r 66%|®Ä®Ä®Ä®Ä®Ä®Ä®Ñ   | 4565/6940 [00:04\u003c00:02, 1081.63it/s]\r 67%|®Ä®Ä®Ä®Ä®Ä®Ä®É   | 4674/6940 [00:04\u003c00:02, 1072.43it/s]\r 69%|®Ä®Ä®Ä®Ä®Ä®Ä®Å   | 4782/6940 [00:04\u003c00:02, 1066.77it/s]\r 70%|®Ä®Ä®Ä®Ä®Ä®Ä®Ä   | 4889/6940 [00:04\u003c00:01, 1061.91it/s]\r 72%|®Ä®Ä®Ä®Ä®Ä®Ä®Ä®á  | 4999/6940 [00:04\u003c00:01, 1072.91it/s]\r 74%|®Ä®Ä®Ä®Ä®Ä®Ä®Ä®Ü  | 5115/6940 [00:04\u003c00:01, 1097.24it/s]\r 75%|®Ä®Ä®Ä®Ä®Ä®Ä®Ä®Ñ  | 5228/6940 [00:04\u003c00:01, 1104.81it/s]\r 77%|®Ä®Ä®Ä®Ä®Ä®Ä®Ä®É  | 5343/6940 [00:04\u003c00:01, 1117.01it/s]\r 79%|®Ä®Ä®Ä®Ä®Ä®Ä®Ä®Ç  | 5457/6940 [00:04\u003c00:01, 1120.99it/s]\r 80%|®Ä®Ä®Ä®Ä®Ä®Ä®Ä®Ä  | 5570/6940 [00:05\u003c00:01, 1118.43it/s]\r 82%|®Ä®Ä®Ä®Ä®Ä®Ä®Ä®Ä®á | 5687/6940 [00:05\u003c00:01, 1132.59it/s]\r 84%|®Ä®Ä®Ä®Ä®Ä®Ä®Ä®Ä®Ü | 5801/6940 [00:05\u003c00:01, 1124.38it/s]\r 85%|®Ä®Ä®Ä®Ä®Ä®Ä®Ä®Ä®Ñ | 5914/6940 [00:05\u003c00:00, 1119.86it/s]\r 87%|®Ä®Ä®Ä®Ä®Ä®Ä®Ä®Ä®É | 6027/6940 [00:05\u003c00:00, 1118.43it/s]\r 88%|®Ä®Ä®Ä®Ä®Ä®Ä®Ä®Ä®Ç | 6139/6940 [00:05\u003c00:00, 1114.37it/s]\r 90%|®Ä®Ä®Ä®Ä®Ä®Ä®Ä®Ä®Ä | 6251/6940 [00:05\u003c00:00, 1107.11it/s]\r 92%|®Ä®Ä®Ä®Ä®Ä®Ä®Ä®Ä®Ä®á| 6362/6940 [00:05\u003c00:00, 1102.78it/s]\r 93%|®Ä®Ä®Ä®Ä®Ä®Ä®Ä®Ä®Ä®Ü| 6477/6940 [00:05\u003c00:00, 1116.75it/s]\r 95%|®Ä®Ä®Ä®Ä®Ä®Ä®Ä®Ä®Ä®Ñ| 6594/6940 [00:05\u003c00:00, 1131.31it/s]\r 97%|®Ä®Ä®Ä®Ä®Ä®Ä®Ä®Ä®Ä®É| 6710/6940 [00:06\u003c00:00, 1138.20it/s]\r 98%|®Ä®Ä®Ä®Ä®Ä®Ä®Ä®Ä®Ä®Ç| 6827/6940 [00:06\u003c00:00, 1146.28it/s]\r100%|®Ä®Ä®Ä®Ä®Ä®Ä®Ä®Ä®Ä®Ä| 6940/6940 [00:06\u003c00:00, 1103.97it/s]\n"}
+,{"stream_name":"stderr","time":24.309323117,"data":"\r  0%|          | 0/1735 [00:00\u003c?, ?it/s]\r  7%|®É         | 115/1735 [00:00\u003c00:01, 1149.12it/s]\r 13%|®Ä®Ü        | 230/1735 [00:00\u003c00:01, 1148.67it/s]\r 20%|®Ä®Å        | 345/1735 [00:00\u003c00:01, 1086.43it/s]\r 26%|®Ä®Ä®Ñ       | 455/1735 [00:00\u003c00:01, 1033.78it/s]\r 32%|®Ä®Ä®Ä®á      | 559/1735 [00:00\u003c00:01, 1029.00it/s]\r 38%|®Ä®Ä®Ä®Ç      | 666/1735 [00:00\u003c00:01, 1040.09it/s]\r 45%|®Ä®Ä®Ä®Ä®Ö     | 778/1735 [00:00\u003c00:00, 1063.81it/s]\r 51%|®Ä®Ä®Ä®Ä®Ä     | 885/1735 [00:00\u003c00:00, 1058.26it/s]\r 57%|®Ä®Ä®Ä®Ä®Ä®É    | 991/1735 [00:00\u003c00:00, 1055.97it/s]\r 63%|®Ä®Ä®Ä®Ä®Ä®Ä®Ü   | 1098/1735 [00:01\u003c00:00, 1058.47it/s]\r 70%|®Ä®Ä®Ä®Ä®Ä®Ä®Å   | 1207/1735 [00:01\u003c00:00, 1065.50it/s]\r 76%|®Ä®Ä®Ä®Ä®Ä®Ä®Ä®É  | 1323/1735 [00:01\u003c00:00, 1090.71it/s]\r 83%|®Ä®Ä®Ä®Ä®Ä®Ä®Ä®Ä®Ü | 1434/1735 [00:01\u003c00:00, 1096.31it/s]\r 89%|®Ä®Ä®Ä®Ä®Ä®Ä®Ä®Ä®Å | 1546/1735 [00:01\u003c00:00, 1102.31it/s]\r 96%|®Ä®Ä®Ä®Ä®Ä®Ä®Ä®Ä®Ä®Ñ| 1657/1735 [00:01\u003c00:00, 1096.13it/s]\r100%|®Ä®Ä®Ä®Ä®Ä®Ä®Ä®Ä®Ä®Ä| 1735/1735 [00:01\u003c00:00, 1079.43it/s]\n"}
+,{"stream_name":"stdout","time":140.309699788,"data":"train classification report \n"}
+,{"stream_name":"stdout","time":140.309735087,"data":"                precision    recall  f1-score   support\n"}
+,{"stream_name":"stdout","time":140.309741882,"data":"\n"}
+,{"stream_name":"stdout","time":140.309747462,"data":"        ENFJ       0.86      0.16      0.27       152\n"}
+,{"stream_name":"stdout","time":140.309753341,"data":"        ENFP       0.81      0.65      0.72       540\n"}
+,{"stream_name":"stdout","time":140.309758946,"data":"        ENTJ       0.93      0.29      0.44       185\n"}
+,{"stream_name":"stdout","time":140.309764641,"data":"        ENTP       0.82      0.66      0.73       548\n"}
+,{"stream_name":"stdout","time":140.309770174,"data":"        ESFJ       0.00      0.00      0.00        34\n"}
+,{"stream_name":"stdout","time":140.309775788,"data":"        ESFP       0.00      0.00      0.00        38\n"}
+,{"stream_name":"stdout","time":140.309781606,"data":"        ESTJ       0.00      0.00      0.00        31\n"}
+,{"stream_name":"stdout","time":140.309787161,"data":"        ESTP       1.00      0.04      0.08        71\n"}
+,{"stream_name":"stdout","time":140.309792724,"data":"        INFJ       0.73      0.83      0.78      1176\n"}
+,{"stream_name":"stdout","time":140.309798471,"data":"        INFP       0.66      0.93      0.77      1465\n"}
+,{"stream_name":"stdout","time":140.309822856,"data":"        INTJ       0.73      0.80      0.77       873\n"}
+,{"stream_name":"stdout","time":140.309827997,"data":"        INTP       0.69      0.87      0.77      1043\n"}
+,{"stream_name":"stdout","time":140.309841523,"data":"        ISFJ       0.89      0.24      0.38       133\n"}
+,{"stream_name":"stdout","time":140.309846668,"data":"        ISFP       0.86      0.26      0.40       217\n"}
+,{"stream_name":"stdout","time":140.309851375,"data":"        ISTJ       0.86      0.27      0.41       164\n"}
+,{"stream_name":"stdout","time":140.309856346,"data":"        ISTP       0.86      0.52      0.65       270\n"}
+,{"stream_name":"stdout","time":140.309861117,"data":"\n"}
+,{"stream_name":"stdout","time":140.309865789,"data":"    accuracy                           0.72      6940\n"}
+,{"stream_name":"stdout","time":140.309870554,"data":"   macro avg       0.67      0.41      0.45      6940\n"}
+,{"stream_name":"stdout","time":140.309875344,"data":"weighted avg       0.74      0.72      0.69      6940\n"}
+,{"stream_name":"stdout","time":140.309880314,"data":"\n"}
+,{"stream_name":"stdout","time":140.55481195,"data":"test classification report \n"}
+,{"stream_name":"stdout","time":140.55483945,"data":"               precision    recall  f1-score   support\n"}
+,{"stream_name":"stdout","time":140.554845711,"data":"\n"}
+,{"stream_name":"stdout","time":140.554850109,"data":"        ENFJ       1.00      0.08      0.15        38\n"}
+,{"stream_name":"stdout","time":140.55485419,"data":"        ENFP       0.76      0.53      0.62       135\n"}
+,{"stream_name":"stdout","time":140.554858304,"data":"        ENTJ       0.75      0.13      0.22        46\n"}
+,{"stream_name":"stdout","time":140.55486228,"data":"        ENTP       0.66      0.51      0.58       137\n"}
+,{"stream_name":"stdout","time":140.554866199,"data":"        ESFJ       0.00      0.00      0.00         8\n"}
+,{"stream_name":"stdout","time":140.554870445,"data":"        ESFP       0.00      0.00      0.00        10\n"}
+,{"stream_name":"stdout","time":140.55487444,"data":"        ESTJ       0.00      0.00      0.00         8\n"}
+,{"stream_name":"stdout","time":140.554878517,"data":"        ESTP       0.00      0.00      0.00        18\n"}
+,{"stream_name":"stdout","time":140.554882563,"data":"        INFJ       0.64      0.71      0.67       294\n"}
+,{"stream_name":"stdout","time":140.554886881,"data":"        INFP       0.57      0.88      0.69       367\n"}
+,{"stream_name":"stdout","time":140.554890838,"data":"        INTJ       0.61      0.65      0.63       218\n"}
+,{"stream_name":"stdout","time":140.554895217,"data":"        INTP       0.66      0.83      0.74       261\n"}
+,{"stream_name":"stdout","time":140.554899358,"data":"        ISFJ       0.67      0.12      0.21        33\n"}
+,{"stream_name":"stdout","time":140.554903955,"data":"        ISFP       0.85      0.20      0.33        54\n"}
+,{"stream_name":"stdout","time":140.554912376,"data":"        ISTJ       0.60      0.07      0.13        41\n"}
+,{"stream_name":"stdout","time":140.554920073,"data":"        ISTP       0.68      0.45      0.54        67\n"}
+,{"stream_name":"stdout","time":140.55492742,"data":"\n"}
+,{"stream_name":"stdout","time":140.554932313,"data":"    accuracy                           0.63      1735\n"}
+,{"stream_name":"stdout","time":140.554937386,"data":"   macro avg       0.53      0.32      0.34      1735\n"}
+,{"stream_name":"stdout","time":140.554942386,"data":"weighted avg       0.64      0.63      0.59      1735\n"}
+,{"stream_name":"stdout","time":140.554947429,"data":"\n"}
+,{"stream_name":"stdout","time":142.566677885,"data":"train classification report \n"}
+,{"stream_name":"stdout","time":142.566746147,"data":"                precision    recall  f1-score   support\n"}
+,{"stream_name":"stdout","time":142.566755256,"data":"\n"}
+,{"stream_name":"stdout","time":142.566760498,"data":"        ENFJ       0.89      0.45      0.60       152\n"}
+,{"stream_name":"stdout","time":142.566765683,"data":"        ENFP       0.85      0.76      0.80       540\n"}
+,{"stream_name":"stdout","time":142.566770671,"data":"        ENTJ       0.92      0.65      0.76       185\n"}
+,{"stream_name":"stdout","time":142.566775796,"data":"        ENTP       0.84      0.82      0.83       548\n"}
+,{"stream_name":"stdout","time":142.566780709,"data":"        ESFJ       0.83      0.29      0.43        34\n"}
+,{"stream_name":"stdout","time":142.566785729,"data":"        ESFP       1.00      0.11      0.19        38\n"}
+,{"stream_name":"stdout","time":142.566790532,"data":"        ESTJ       1.00      0.26      0.41        31\n"}
+,{"stream_name":"stdout","time":142.566795666,"data":"        ESTP       0.92      0.49      0.64        71\n"}
+,{"stream_name":"stdout","time":142.566800466,"data":"        INFJ       0.82      0.86      0.84      1176\n"}
+,{"stream_name":"stdout","time":142.5668055,"data":"        INFP       0.77      0.93      0.84      1465\n"}
+,{"stream_name":"stdout","time":142.566818558,"data":"        INTJ       0.83      0.85      0.84       873\n"}
+,{"stream_name":"stdout","time":142.566826981,"data":"        INTP       0.81      0.89      0.85      1043\n"}
+,{"stream_name":"stdout","time":142.566836363,"data":"        ISFJ       0.91      0.67      0.77       133\n"}
+,{"stream_name":"stdout","time":142.566841755,"data":"        ISFP       0.89      0.57      0.70       217\n"}
+,{"stream_name":"stdout","time":142.566846829,"data":"        ISTJ       0.87      0.66      0.75       164\n"}
+,{"stream_name":"stdout","time":142.566851775,"data":"        ISTP       0.89      0.83      0.86       270\n"}
+,{"stream_name":"stdout","time":142.566856763,"data":"\n"}
+,{"stream_name":"stdout","time":142.566861533,"data":"    accuracy                           0.82      6940\n"}
+,{"stream_name":"stdout","time":142.56686647,"data":"   macro avg       0.88      0.63      0.69      6940\n"}
+,{"stream_name":"stdout","time":142.566871288,"data":"weighted avg       0.83      0.82      0.81      6940\n"}
+,{"stream_name":"stdout","time":142.566876193,"data":"\n"}
+,{"stream_name":"stdout","time":142.566880946,"data":"test classification report \n"}
+,{"stream_name":"stdout","time":142.566885748,"data":"               precision    recall  f1-score   support\n"}
+,{"stream_name":"stdout","time":142.56689073,"data":"\n"}
+,{"stream_name":"stdout","time":142.566895371,"data":"        ENFJ       0.58      0.18      0.28        38\n"}
+,{"stream_name":"stdout","time":142.566899736,"data":"        ENFP       0.75      0.59      0.66       135\n"}
+,{"stream_name":"stdout","time":142.566906113,"data":"        ENTJ       0.61      0.30      0.41        46\n"}
+,{"stream_name":"stdout","time":142.566915192,"data":"        ENTP       0.61      0.55      0.58       137\n"}
+,{"stream_name":"stdout","time":142.566922891,"data":"        ESFJ       1.00      0.38      0.55         8\n"}
+,{"stream_name":"stdout","time":142.566927868,"data":"        ESFP       0.00      0.00      0.00        10\n"}
+,{"stream_name":"stdout","time":142.566932873,"data":"        ESTJ       1.00      0.12      0.22         8\n"}
+,{"stream_name":"stdout","time":142.566937743,"data":"        ESTP       0.67      0.33      0.44        18\n"}
+,{"stream_name":"stdout","time":142.566942707,"data":"        INFJ       0.68      0.72      0.70       294\n"}
+,{"stream_name":"stdout","time":142.566953846,"data":"        INFP       0.62      0.86      0.72       367\n"}
+,{"stream_name":"stdout","time":142.56695873,"data":"        INTJ       0.64      0.66      0.65       218\n"}
+,{"stream_name":"stdout","time":142.566963567,"data":"        INTP       0.71      0.82      0.76       261\n"}
+,{"stream_name":"stdout","time":142.566968585,"data":"        ISFJ       0.62      0.30      0.41        33\n"}
+,{"stream_name":"stdout","time":142.566973407,"data":"        ISFP       0.82      0.33      0.47        54\n"}
+,{"stream_name":"stdout","time":142.566978328,"data":"        ISTJ       0.81      0.32      0.46        41\n"}
+,{"stream_name":"stdout","time":142.566983922,"data":"        ISTP       0.67      0.57      0.61        67\n"}
+,{"stream_name":"stdout","time":142.566990956,"data":"\n"}
+,{"stream_name":"stdout","time":142.566999782,"data":"    accuracy                           0.66      1735\n"}
+,{"stream_name":"stdout","time":142.567007773,"data":"   macro avg       0.67      0.44      0.49      1735\n"}
+,{"stream_name":"stdout","time":142.567013029,"data":"weighted avg       0.67      0.66      0.65      1735\n"}
+,{"stream_name":"stdout","time":142.567017855,"data":"\n"}
+,{"stream_name":"stdout","time":679.053648695,"data":"train classification report \n"}
+,{"stream_name":"stdout","time":679.053685609,"data":"                precision    recall  f1-score   support\n"}
+,{"stream_name":"stdout","time":679.053693215,"data":"\n"}
+,{"stream_name":"stdout","time":679.053699095,"data":"        ENFJ       0.97      0.84      0.90       152\n"}
+,{"stream_name":"stdout","time":679.053705409,"data":"        ENFP       0.96      0.95      0.95       540\n"}
+,{"stream_name":"stdout","time":679.053711443,"data":"        ENTJ       0.99      0.90      0.94       185\n"}
+,{"stream_name":"stdout","time":679.053717801,"data":"        ENTP       0.95      0.96      0.95       548\n"}
+,{"stream_name":"stdout","time":679.053723666,"data":"        ESFJ       1.00      0.56      0.72        34\n"}
+,{"stream_name":"stdout","time":679.053729786,"data":"        ESFP       1.00      0.37      0.54        38\n"}
+,{"stream_name":"stdout","time":679.053735742,"data":"        ESTJ       1.00      0.52      0.68        31\n"}
+,{"stream_name":"stdout","time":679.053741794,"data":"        ESTP       1.00      0.82      0.90        71\n"}
+,{"stream_name":"stdout","time":679.053748189,"data":"        INFJ       0.95      0.97      0.96      1176\n"}
+,{"stream_name":"stdout","time":679.053754257,"data":"        INFP       0.92      0.98      0.95      1465\n"}
+,{"stream_name":"stdout","time":679.053760186,"data":"        INTJ       0.96      0.96      0.96       873\n"}
+,{"stream_name":"stdout","time":679.053765911,"data":"        INTP       0.94      0.97      0.96      1043\n"}
+,{"stream_name":"stdout","time":679.053772083,"data":"        ISFJ       1.00      0.89      0.94       133\n"}
+,{"stream_name":"stdout","time":679.053777595,"data":"        ISFP       0.97      0.90      0.94       217\n"}
+,{"stream_name":"stdout","time":679.053783735,"data":"        ISTJ       0.94      0.92      0.93       164\n"}
+,{"stream_name":"stdout","time":679.053789487,"data":"        ISTP       0.97      0.94      0.95       270\n"}
+,{"stream_name":"stdout","time":679.053795407,"data":"\n"}
+,{"stream_name":"stdout","time":679.053801503,"data":"    accuracy                           0.95      6940\n"}
+,{"stream_name":"stdout","time":679.053807164,"data":"   macro avg       0.97      0.84      0.89      6940\n"}
+,{"stream_name":"stdout","time":679.053813484,"data":"weighted avg       0.95      0.95      0.95      6940\n"}
+,{"stream_name":"stdout","time":679.053831993,"data":"\n"}
+,{"stream_name":"stdout","time":738.260021168,"data":"test classification report \n"}
+,{"stream_name":"stdout","time":738.260049736,"data":"                precision    recall  f1-score   support\n"}
+,{"stream_name":"stdout","time":738.26005586,"data":"\n"}
+,{"stream_name":"stdout","time":738.260061059,"data":"        ENFJ       0.65      0.29      0.40        38\n"}
+,{"stream_name":"stdout","time":738.260066081,"data":"        ENFP       0.75      0.56      0.64       135\n"}
+,{"stream_name":"stdout","time":738.260071282,"data":"        ENTJ       0.65      0.28      0.39        46\n"}
+,{"stream_name":"stdout","time":738.260080608,"data":"        ENTP       0.64      0.53      0.58       137\n"}
+,{"stream_name":"stdout","time":738.260085525,"data":"        ESFJ       0.33      0.12      0.18         8\n"}
+,{"stream_name":"stdout","time":738.260090036,"data":"        ESFP       0.00      0.00      0.00        10\n"}
+,{"stream_name":"stdout","time":738.260094874,"data":"        ESTJ       0.00      0.00      0.00         8\n"}
+,{"stream_name":"stdout","time":738.260099636,"data":"        ESTP       0.71      0.28      0.40        18\n"}
+,{"stream_name":"stdout","time":738.260104154,"data":"        INFJ       0.67      0.69      0.68       294\n"}
+,{"stream_name":"stdout","time":738.260108704,"data":"        INFP       0.60      0.86      0.70       367\n"}
+,{"stream_name":"stdout","time":738.260113114,"data":"        INTJ       0.64      0.63      0.64       218\n"}
+,{"stream_name":"stdout","time":738.260117749,"data":"        INTP       0.66      0.83      0.73       261\n"}
+,{"stream_name":"stdout","time":738.260122558,"data":"        ISFJ       0.82      0.27      0.41        33\n"}
+,{"stream_name":"stdout","time":738.260127275,"data":"        ISFP       0.79      0.35      0.49        54\n"}
+,{"stream_name":"stdout","time":738.260132538,"data":"        ISTJ       0.79      0.27      0.40        41\n"}
+,{"stream_name":"stdout","time":738.260140594,"data":"        ISTP       0.73      0.57      0.64        67\n"}
+,{"stream_name":"stdout","time":738.260150118,"data":"\n"}
+,{"stream_name":"stdout","time":738.260155784,"data":"    accuracy                           0.65      1735\n"}
+,{"stream_name":"stdout","time":738.260160451,"data":"   macro avg       0.59      0.41      0.46      1735\n"}
+,{"stream_name":"stdout","time":738.260165304,"data":"weighted avg       0.66      0.65      0.63      1735\n"}
+,{"stream_name":"stdout","time":738.260169908,"data":"\n"}
+,{"stream_name":"stdout","time":798.646984021,"data":"train classification report \n"}
+,{"stream_name":"stdout","time":798.647017945,"data":"                precision    recall  f1-score   support\n"}
+,{"stream_name":"stdout","time":798.647024992,"data":"\n"}
+,{"stream_name":"stdout","time":798.647030875,"data":"        ENFJ       0.00      0.00      0.00       152\n"}
+,{"stream_name":"stdout","time":798.647036753,"data":"        ENFP       0.90      0.02      0.03       540\n"}
+,{"stream_name":"stdout","time":798.647042706,"data":"        ENTJ       0.00      0.00      0.00       185\n"}
+,{"stream_name":"stdout","time":798.647048085,"data":"        ENTP       0.91      0.06      0.11       548\n"}
+,{"stream_name":"stdout","time":798.647053308,"data":"        ESFJ       0.00      0.00      0.00        34\n"}
+,{"stream_name":"stdout","time":798.647064777,"data":"        ESFP       0.00      0.00      0.00        38\n"}
+,{"stream_name":"stdout","time":798.647073485,"data":"        ESTJ       0.00      0.00      0.00        31\n"}
+,{"stream_name":"stdout","time":798.647091024,"data":"        ESTP       0.00      0.00      0.00        71\n"}
+,{"stream_name":"stdout","time":798.647096405,"data":"        INFJ       0.52      0.62      0.56      1176\n"}
+,{"stream_name":"stdout","time":798.647101329,"data":"        INFP       0.35      0.94      0.52      1465\n"}
+,{"stream_name":"stdout","time":798.647106178,"data":"        INTJ       0.78      0.42      0.54       873\n"}
+,{"stream_name":"stdout","time":798.647111048,"data":"        INTP       0.58      0.64      0.61      1043\n"}
+,{"stream_name":"stdout","time":798.647116048,"data":"        ISFJ       0.00      0.00      0.00       133\n"}
+,{"stream_name":"stdout","time":798.647120851,"data":"        ISFP       0.00      0.00      0.00       217\n"}
+,{"stream_name":"stdout","time":798.647125681,"data":"        ISTJ       0.00      0.00      0.00       164\n"}
+,{"stream_name":"stdout","time":798.647130397,"data":"        ISTP       1.00      0.00      0.01       270\n"}
+,{"stream_name":"stdout","time":798.647134926,"data":"\n"}
+,{"stream_name":"stdout","time":798.647141879,"data":"    accuracy                           0.46      6940\n"}
+,{"stream_name":"stdout","time":798.647167397,"data":"   macro avg       0.32      0.17      0.15      6940\n"}
+,{"stream_name":"stdout","time":798.647175098,"data":"weighted avg       0.53      0.46      0.38      6940\n"}
+,{"stream_name":"stdout","time":798.64718028,"data":"\n"}
+,{"stream_name":"stdout","time":798.647185196,"data":"test classification report \n"}
+,{"stream_name":"stdout","time":798.647190269,"data":"                precision    recall  f1-score   support\n"}
+,{"stream_name":"stdout","time":798.647195514,"data":"\n"}
+,{"stream_name":"stdout","time":798.647200365,"data":"        ENFJ       0.00      0.00      0.00        38\n"}
+,{"stream_name":"stdout","time":798.647205404,"data":"        ENFP       0.83      0.04      0.07       135\n"}
+,{"stream_name":"stdout","time":798.647210474,"data":"        ENTJ       0.00      0.00      0.00        46\n"}
+,{"stream_name":"stdout","time":798.647215622,"data":"        ENTP       0.38      0.02      0.04       137\n"}
+,{"stream_name":"stdout","time":798.647220701,"data":"        ESFJ       0.00      0.00      0.00         8\n"}
+,{"stream_name":"stdout","time":798.647225763,"data":"        ESFP       0.00      0.00      0.00        10\n"}
+,{"stream_name":"stdout","time":798.647230913,"data":"        ESTJ       0.00      0.00      0.00         8\n"}
+,{"stream_name":"stdout","time":798.647235332,"data":"        ESTP       0.00      0.00      0.00        18\n"}
+,{"stream_name":"stdout","time":798.647243034,"data":"        INFJ       0.38      0.42      0.40       294\n"}
+,{"stream_name":"stdout","time":798.647252695,"data":"        INFP       0.32      0.91      0.47       367\n"}
+,{"stream_name":"stdout","time":798.647260364,"data":"        INTJ       0.68      0.20      0.31       218\n"}
+,{"stream_name":"stdout","time":798.647265649,"data":"        INTP       0.52      0.56      0.54       261\n"}
+,{"stream_name":"stdout","time":798.647270813,"data":"        ISFJ       0.00      0.00      0.00        33\n"}
+,{"stream_name":"stdout","time":798.64727598,"data":"        ISFP       0.00      0.00      0.00        54\n"}
+,{"stream_name":"stdout","time":798.647281201,"data":"        ISTJ       0.00      0.00      0.00        41\n"}
+,{"stream_name":"stdout","time":798.647287587,"data":"        ISTP       0.00      0.00      0.00        67\n"}
+,{"stream_name":"stdout","time":798.647293263,"data":"\n"}
+,{"stream_name":"stdout","time":798.647298384,"data":"    accuracy                           0.38      1735\n"}
+,{"stream_name":"stdout","time":798.647309536,"data":"   macro avg       0.19      0.13      0.11      1735\n"}
+,{"stream_name":"stdout","time":798.647314941,"data":"weighted avg       0.39      0.38      0.30      1735\n"}
+,{"stream_name":"stdout","time":798.647319723,"data":"\n"}
+,{"stream_name":"stdout","time":805.271669292,"data":"train classification report \n"}
+,{"stream_name":"stdout","time":805.271707615,"data":"                precision    recall  f1-score   support\n"}
+,{"stream_name":"stdout","time":805.271715435,"data":"\n"}
+,{"stream_name":"stdout","time":805.27172113,"data":"        ENFJ       0.73      0.59      0.65       152\n"}
+,{"stream_name":"stdout","time":805.271726727,"data":"        ENFP       0.88      0.79      0.83       540\n"}
+,{"stream_name":"stdout","time":805.271732332,"data":"        ENTJ       0.87      0.67      0.76       185\n"}
+,{"stream_name":"stdout","time":805.271738106,"data":"        ENTP       0.95      0.76      0.84       548\n"}
+,{"stream_name":"stdout","time":805.271743469,"data":"        ESFJ       0.88      0.41      0.56        34\n"}
+,{"stream_name":"stdout","time":805.271748859,"data":"        ESFP       1.00      0.21      0.35        38\n"}
+,{"stream_name":"stdout","time":805.271754085,"data":"        ESTJ       0.86      0.39      0.53        31\n"}
+,{"stream_name":"stdout","time":805.271759692,"data":"        ESTP       0.89      0.44      0.58        71\n"}
+,{"stream_name":"stdout","time":805.271765468,"data":"        INFJ       0.82      0.85      0.83      1176\n"}
+,{"stream_name":"stdout","time":805.271774147,"data":"        INFP       0.62      0.94      0.75      1465\n"}
+,{"stream_name":"stdout","time":805.271784187,"data":"        INTJ       0.86      0.79      0.83       873\n"}
+,{"stream_name":"stdout","time":805.271791132,"data":"        INTP       0.89      0.81      0.85      1043\n"}
+,{"stream_name":"stdout","time":805.271796598,"data":"        ISFJ       1.00      0.47      0.64       133\n"}
+,{"stream_name":"stdout","time":805.271801784,"data":"        ISFP       0.97      0.63      0.76       217\n"}
+,{"stream_name":"stdout","time":805.271806941,"data":"        ISTJ       0.96      0.52      0.67       164\n"}
+,{"stream_name":"stdout","time":805.271812407,"data":"        ISTP       0.97      0.70      0.81       270\n"}
+,{"stream_name":"stdout","time":805.271817985,"data":"\n"}
+,{"stream_name":"stdout","time":805.271822918,"data":"    accuracy                           0.79      6940\n"}
+,{"stream_name":"stdout","time":805.271828147,"data":"   macro avg       0.88      0.62      0.70      6940\n"}
+,{"stream_name":"stdout","time":805.27183309,"data":"weighted avg       0.83      0.79      0.79      6940\n"}
+,{"stream_name":"stdout","time":805.271837973,"data":"\n"}
+,{"stream_name":"stdout","time":805.271842389,"data":"test classification report \n"}
+,{"stream_name":"stdout","time":805.271857262,"data":"                precision    recall  f1-score   support\n"}
+,{"stream_name":"stdout","time":805.271867283,"data":"\n"}
+,{"stream_name":"stdout","time":805.271874682,"data":"        ENFJ       0.20      0.24      0.22        38\n"}
+,{"stream_name":"stdout","time":805.271879896,"data":"        ENFP       0.53      0.45      0.49       135\n"}
+,{"stream_name":"stdout","time":805.271885206,"data":"        ENTJ       0.23      0.20      0.21        46\n"}
+,{"stream_name":"stdout","time":805.271890359,"data":"        ENTP       0.57      0.42      0.49       137\n"}
+,{"stream_name":"stdout","time":805.271895579,"data":"        ESFJ       0.00      0.00      0.00         8\n"}
+,{"stream_name":"stdout","time":805.271900703,"data":"        ESFP       0.00      0.00      0.00        10\n"}
+,{"stream_name":"stdout","time":805.271918347,"data":"        ESTJ       0.00      0.00      0.00         8\n"}
+,{"stream_name":"stdout","time":805.27192339,"data":"        ESTP       0.22      0.11      0.15        18\n"}
+,{"stream_name":"stdout","time":805.271927815,"data":"        INFJ       0.55      0.61      0.58       294\n"}
+,{"stream_name":"stdout","time":805.271932339,"data":"        INFP       0.49      0.71      0.58       367\n"}
+,{"stream_name":"stdout","time":805.271936677,"data":"        INTJ       0.52      0.53      0.52       218\n"}
+,{"stream_name":"stdout","time":805.271941204,"data":"        INTP       0.61      0.55      0.58       261\n"}
+,{"stream_name":"stdout","time":805.27194944,"data":"        ISFJ       0.18      0.09      0.12        33\n"}
+,{"stream_name":"stdout","time":805.271955274,"data":"        ISFP       0.46      0.22      0.30        54\n"}
+,{"stream_name":"stdout","time":805.271959934,"data":"        ISTJ       0.53      0.20      0.29        41\n"}
+,{"stream_name":"stdout","time":805.271966967,"data":"        ISTP       0.51      0.40      0.45        67\n"}
+,{"stream_name":"stdout","time":805.27197144,"data":"\n"}
+,{"stream_name":"stdout","time":805.271975619,"data":"    accuracy                           0.51      1735\n"}
+,{"stream_name":"stdout","time":805.271979976,"data":"   macro avg       0.35      0.29      0.31      1735\n"}
+,{"stream_name":"stdout","time":805.271984716,"data":"weighted avg       0.50      0.51      0.50      1735\n"}
+,{"stream_name":"stdout","time":805.271989133,"data":"\n"}
+,{"stream_name":"stdout","time":811.947928437,"data":"train classification report \n"}
+,{"stream_name":"stdout","time":811.947964486,"data":"                precision    recall  f1-score   support\n"}
+,{"stream_name":"stdout","time":811.947971083,"data":"\n"}
+,{"stream_name":"stdout","time":811.947976003,"data":"        ENFJ       1.00      0.02      0.04       152\n"}
+,{"stream_name":"stdout","time":811.947981129,"data":"        ENFP       0.99      0.44      0.61       540\n"}
+,{"stream_name":"stdout","time":811.947986208,"data":"        ENTJ       1.00      0.10      0.18       185\n"}
+,{"stream_name":"stdout","time":811.947990989,"data":"        ENTP       0.98      0.56      0.71       548\n"}
+,{"stream_name":"stdout","time":811.947995795,"data":"        ESFJ       0.00      0.00      0.00        34\n"}
+,{"stream_name":"stdout","time":811.948000694,"data":"        ESFP       0.00      0.00      0.00        38\n"}
+,{"stream_name":"stdout","time":811.948005543,"data":"        ESTJ       0.00      0.00      0.00        31\n"}
+,{"stream_name":"stdout","time":811.948010594,"data":"        ESTP       1.00      0.01      0.03        71\n"}
+,{"stream_name":"stdout","time":811.948015662,"data":"        INFJ       0.81      0.82      0.81      1176\n"}
+,{"stream_name":"stdout","time":811.948022479,"data":"        INFP       0.45      1.00      0.62      1465\n"}
+,{"stream_name":"stdout","time":811.948027319,"data":"        INTJ       0.91      0.78      0.84       873\n"}
+,{"stream_name":"stdout","time":811.948032298,"data":"        INTP       0.81      0.87      0.84      1043\n"}
+,{"stream_name":"stdout","time":811.948037212,"data":"        ISFJ       1.00      0.02      0.03       133\n"}
+,{"stream_name":"stdout","time":811.948042145,"data":"        ISFP       1.00      0.09      0.16       217\n"}
+,{"stream_name":"stdout","time":811.948047172,"data":"        ISTJ       0.00      0.00      0.00       164\n"}
+,{"stream_name":"stdout","time":811.948052252,"data":"        ISTP       1.00      0.20      0.33       270\n"}
+,{"stream_name":"stdout","time":811.948070538,"data":"\n"}
+,{"stream_name":"stdout","time":811.948074775,"data":"    accuracy                           0.67      6940\n"}
+,{"stream_name":"stdout","time":811.948078708,"data":"   macro avg       0.68      0.31      0.32      6940\n"}
+,{"stream_name":"stdout","time":811.948082711,"data":"weighted avg       0.77      0.67      0.63      6940\n"}
+,{"stream_name":"stdout","time":811.94808639,"data":"\n"}
+,{"stream_name":"stdout","time":811.948090163,"data":"test classification report \n"}
+,{"stream_name":"stdout","time":811.94809418,"data":"                precision    recall  f1-score   support\n"}
+,{"stream_name":"stdout","time":811.948098119,"data":"\n"}
+,{"stream_name":"stdout","time":811.948101965,"data":"        ENFJ       0.00      0.00      0.00        38\n"}
+,{"stream_name":"stdout","time":811.948106272,"data":"        ENFP       0.77      0.15      0.25       135\n"}
+,{"stream_name":"stdout","time":811.948110424,"data":"        ENTJ       0.00      0.00      0.00        46\n"}
+,{"stream_name":"stdout","time":811.948114584,"data":"        ENTP       0.69      0.23      0.34       137\n"}
+,{"stream_name":"stdout","time":811.948118492,"data":"        ESFJ       0.00      0.00      0.00         8\n"}
+,{"stream_name":"stdout","time":811.948122415,"data":"        ESFP       0.00      0.00      0.00        10\n"}
+,{"stream_name":"stdout","time":811.948126445,"data":"        ESTJ       0.00      0.00      0.00         8\n"}
+,{"stream_name":"stdout","time":811.948130705,"data":"        ESTP       0.00      0.00      0.00        18\n"}
+,{"stream_name":"stdout","time":811.948134722,"data":"        INFJ       0.62      0.57      0.60       294\n"}
+,{"stream_name":"stdout","time":811.948138808,"data":"        INFP       0.35      0.95      0.51       367\n"}
+,{"stream_name":"stdout","time":811.948142871,"data":"        INTJ       0.74      0.41      0.53       218\n"}
+,{"stream_name":"stdout","time":811.948147198,"data":"        INTP       0.59      0.61      0.60       261\n"}
+,{"stream_name":"stdout","time":811.948151448,"data":"        ISFJ       0.00      0.00      0.00        33\n"}
+,{"stream_name":"stdout","time":811.94815562,"data":"        ISFP       0.00      0.00      0.00        54\n"}
+,{"stream_name":"stdout","time":811.948159679,"data":"        ISTJ       0.00      0.00      0.00        41\n"}
+,{"stream_name":"stdout","time":811.948165138,"data":"        ISTP       0.50      0.01      0.03        67\n"}
+,{"stream_name":"stdout","time":811.948169322,"data":"\n"}
+,{"stream_name":"stdout","time":811.948173321,"data":"    accuracy                           0.47      1735\n"}
+,{"stream_name":"stdout","time":811.948177523,"data":"   macro avg       0.27      0.18      0.18      1735\n"}
+,{"stream_name":"stdout","time":811.948181753,"data":"weighted avg       0.49      0.47      0.41      1735\n"}
+,{"stream_name":"stdout","time":811.948185674,"data":"\n"}
+,{"stream_name":"stdout","time":816.203048478,"data":"[13:51:02] WARNING: ../src/learner.cc:1095: Starting in XGBoost 1.3.0, the default evaluation metric used with the objective 'multi:softprob' was changed from 'merror' to 'mlogloss'. Explicitly set eval_metric if you'd like to restore the old behavior.\n"}
+,{"stream_name":"stdout","time":851.8507129,"data":"train classification report \n"}
+,{"stream_name":"stdout","time":851.850739237,"data":"                precision    recall  f1-score   support\n"}
+,{"stream_name":"stdout","time":851.850745092,"data":"\n"}
+,{"stream_name":"stdout","time":851.850750061,"data":"        ENFJ       0.99      0.92      0.95       152\n"}
+,{"stream_name":"stdout","time":851.850758501,"data":"        ENFP       0.94      0.91      0.92       540\n"}
+,{"stream_name":"stdout","time":851.850780406,"data":"        ENTJ       0.99      0.90      0.94       185\n"}
+,{"stream_name":"stdout","time":851.850784619,"data":"        ENTP       0.94      0.91      0.92       548\n"}
+,{"stream_name":"stdout","time":851.850788181,"data":"        ESFJ       1.00      0.91      0.95        34\n"}
+,{"stream_name":"stdout","time":851.850791844,"data":"        ESFP       1.00      0.92      0.96        38\n"}
+,{"stream_name":"stdout","time":851.850795375,"data":"        ESTJ       1.00      0.84      0.91        31\n"}
+,{"stream_name":"stdout","time":851.850798989,"data":"        ESTP       1.00      0.94      0.97        71\n"}
+,{"stream_name":"stdout","time":851.850802522,"data":"        INFJ       0.91      0.90      0.91      1176\n"}
+,{"stream_name":"stdout","time":851.850806136,"data":"        INFP       0.89      0.95      0.92      1465\n"}
+,{"stream_name":"stdout","time":851.850809664,"data":"        INTJ       0.92      0.92      0.92       873\n"}
+,{"stream_name":"stdout","time":851.850813254,"data":"        INTP       0.90      0.93      0.91      1043\n"}
+,{"stream_name":"stdout","time":851.850816646,"data":"        ISFJ       1.00      0.96      0.98       133\n"}
+,{"stream_name":"stdout","time":851.850820521,"data":"        ISFP       0.99      0.92      0.95       217\n"}
+,{"stream_name":"stdout","time":851.850824089,"data":"        ISTJ       0.99      0.92      0.95       164\n"}
+,{"stream_name":"stdout","time":851.850827709,"data":"        ISTP       0.97      0.96      0.96       270\n"}
+,{"stream_name":"stdout","time":851.850831254,"data":"\n"}
+,{"stream_name":"stdout","time":851.850834811,"data":"    accuracy                           0.92      6940\n"}
+,{"stream_name":"stdout","time":851.850838321,"data":"   macro avg       0.96      0.92      0.94      6940\n"}
+,{"stream_name":"stdout","time":851.850841962,"data":"weighted avg       0.92      0.92      0.92      6940\n"}
+,{"stream_name":"stdout","time":851.850845582,"data":"\n"}
+,{"stream_name":"stdout","time":851.850849357,"data":"test classification report \n"}
+,{"stream_name":"stdout","time":851.850852934,"data":"                precision    recall  f1-score   support\n"}
+,{"stream_name":"stdout","time":851.850856521,"data":"\n"}
+,{"stream_name":"stdout","time":851.850860226,"data":"        ENFJ       0.62      0.34      0.44        38\n"}
+,{"stream_name":"stdout","time":851.850863905,"data":"        ENFP       0.69      0.61      0.65       135\n"}
+,{"stream_name":"stdout","time":851.85086742,"data":"        ENTJ       0.75      0.39      0.51        46\n"}
+,{"stream_name":"stdout","time":851.850870997,"data":"        ENTP       0.59      0.57      0.58       137\n"}
+,{"stream_name":"stdout","time":851.850874469,"data":"        ESFJ       1.00      0.12      0.22         8\n"}
+,{"stream_name":"stdout","time":851.850884528,"data":"        ESFP       1.00      0.10      0.18        10\n"}
+,{"stream_name":"stdout","time":851.850888357,"data":"        ESTJ       1.00      0.12      0.22         8\n"}
+,{"stream_name":"stdout","time":851.850892082,"data":"        ESTP       0.38      0.17      0.23        18\n"}
+,{"stream_name":"stdout","time":851.850895642,"data":"        INFJ       0.67      0.74      0.71       294\n"}
+,{"stream_name":"stdout","time":851.850899257,"data":"        INFP       0.67      0.81      0.73       367\n"}
+,{"stream_name":"stdout","time":851.850902822,"data":"        INTJ       0.68      0.66      0.67       218\n"}
+,{"stream_name":"stdout","time":851.850906435,"data":"        INTP       0.67      0.77      0.72       261\n"}
+,{"stream_name":"stdout","time":851.850914235,"data":"        ISFJ       0.68      0.45      0.55        33\n"}
+,{"stream_name":"stdout","time":851.850917941,"data":"        ISFP       0.69      0.46      0.56        54\n"}
+,{"stream_name":"stdout","time":851.850921511,"data":"        ISTJ       0.65      0.37      0.47        41\n"}
+,{"stream_name":"stdout","time":851.850926445,"data":"        ISTP       0.66      0.63      0.64        67\n"}
+,{"stream_name":"stdout","time":851.850930099,"data":"\n"}
+,{"stream_name":"stdout","time":851.850933606,"data":"    accuracy                           0.67      1735\n"}
+,{"stream_name":"stdout","time":851.850937126,"data":"   macro avg       0.71      0.46      0.50      1735\n"}
+,{"stream_name":"stdout","time":851.850940759,"data":"weighted avg       0.67      0.67      0.66      1735\n"}
+,{"stream_name":"stdout","time":851.850944343,"data":"\n"}
+,{"stream_name":"stdout","time":1055.600192663,"data":"train classification report \n"}
+,{"stream_name":"stdout","time":1055.600232273,"data":"                precision    recall  f1-score   support\n"}
+,{"stream_name":"stdout","time":1055.600243972,"data":"\n"}
+,{"stream_name":"stdout","time":1055.600251523,"data":"        ENFJ       0.87      0.54      0.67       152\n"}
+,{"stream_name":"stdout","time":1055.600257432,"data":"        ENFP       0.81      0.75      0.78       540\n"}
+,{"stream_name":"stdout","time":1055.600263547,"data":"        ENTJ       0.89      0.59      0.71       185\n"}
+,{"stream_name":"stdout","time":1055.600269874,"data":"        ENTP       0.78      0.78      0.78       548\n"}
+,{"stream_name":"stdout","time":1055.600275706,"data":"        ESFJ       0.93      0.41      0.57        34\n"}
+,{"stream_name":"stdout","time":1055.600281148,"data":"        ESFP       1.00      0.24      0.38        38\n"}
+,{"stream_name":"stdout","time":1055.60028713,"data":"        ESTJ       1.00      0.35      0.52        31\n"}
+,{"stream_name":"stdout","time":1055.600292621,"data":"        ESTP       0.93      0.56      0.70        71\n"}
+,{"stream_name":"stdout","time":1055.600306927,"data":"        INFJ       0.79      0.82      0.81      1176\n"}
+,{"stream_name":"stdout","time":1055.600312793,"data":"        INFP       0.77      0.88      0.82      1465\n"}
+,{"stream_name":"stdout","time":1055.600322588,"data":"        INTJ       0.80      0.81      0.81       873\n"}
+,{"stream_name":"stdout","time":1055.600332622,"data":"        INTP       0.75      0.86      0.80      1043\n"}
+,{"stream_name":"stdout","time":1055.600338057,"data":"        ISFJ       0.88      0.63      0.73       133\n"}
+,{"stream_name":"stdout","time":1055.600343271,"data":"        ISFP       0.80      0.64      0.71       217\n"}
+,{"stream_name":"stdout","time":1055.600348419,"data":"        ISTJ       0.87      0.66      0.75       164\n"}
+,{"stream_name":"stdout","time":1055.600353037,"data":"        ISTP       0.88      0.75      0.81       270\n"}
+,{"stream_name":"stdout","time":1055.600358013,"data":"\n"}
+,{"stream_name":"stdout","time":1055.600362805,"data":"    accuracy                           0.79      6940\n"}
+,{"stream_name":"stdout","time":1055.600367528,"data":"   macro avg       0.86      0.64      0.71      6940\n"}
+,{"stream_name":"stdout","time":1055.600372408,"data":"weighted avg       0.80      0.79      0.79      6940\n"}
+,{"stream_name":"stdout","time":1055.600377342,"data":"\n"}
+,{"stream_name":"stdout","time":1055.640813868,"data":"test classification report \n"}
+,{"stream_name":"stdout","time":1055.640847521,"data":"                precision    recall  f1-score   support\n"}
+,{"stream_name":"stdout","time":1055.640854936,"data":"\n"}
+,{"stream_name":"stdout","time":1055.640876284,"data":"        ENFJ       0.64      0.37      0.47        38\n"}
+,{"stream_name":"stdout","time":1055.640881047,"data":"        ENFP       0.74      0.64      0.69       135\n"}
+,{"stream_name":"stdout","time":1055.640885521,"data":"        ENTJ       0.79      0.41      0.54        46\n"}
+,{"stream_name":"stdout","time":1055.640890388,"data":"        ENTP       0.61      0.57      0.59       137\n"}
+,{"stream_name":"stdout","time":1055.640894893,"data":"        ESFJ       1.00      0.25      0.40         8\n"}
+,{"stream_name":"stdout","time":1055.640899499,"data":"        ESFP       0.00      0.00      0.00        10\n"}
+,{"stream_name":"stdout","time":1055.640904127,"data":"        ESTJ       1.00      0.12      0.22         8\n"}
+,{"stream_name":"stdout","time":1055.640911086,"data":"        ESTP       0.73      0.44      0.55        18\n"}
+,{"stream_name":"stdout","time":1055.640919969,"data":"        INFJ       0.69      0.74      0.71       294\n"}
+,{"stream_name":"stdout","time":1055.640938912,"data":"        INFP       0.66      0.80      0.72       367\n"}
+,{"stream_name":"stdout","time":1055.640943278,"data":"        INTJ       0.67      0.63      0.65       218\n"}
+,{"stream_name":"stdout","time":1055.640947197,"data":"        INTP       0.64      0.79      0.71       261\n"}
+,{"stream_name":"stdout","time":1055.640951273,"data":"        ISFJ       0.75      0.45      0.57        33\n"}
+,{"stream_name":"stdout","time":1055.640955274,"data":"        ISFP       0.56      0.43      0.48        54\n"}
+,{"stream_name":"stdout","time":1055.640959089,"data":"        ISTJ       0.75      0.37      0.49        41\n"}
+,{"stream_name":"stdout","time":1055.640963005,"data":"        ISTP       0.68      0.64      0.66        67\n"}
+,{"stream_name":"stdout","time":1055.640966979,"data":"\n"}
+,{"stream_name":"stdout","time":1055.640970892,"data":"    accuracy                           0.67      1735\n"}
+,{"stream_name":"stdout","time":1055.640974734,"data":"   macro avg       0.68      0.48      0.53      1735\n"}
+,{"stream_name":"stdout","time":1055.640978881,"data":"weighted avg       0.67      0.67      0.66      1735\n"}
+,{"stream_name":"stdout","time":1055.640982608,"data":"\n"}
+,{"stream_name":"stderr","time":1065.322497287,"data":"/opt/conda/lib/python3.7/site-packages/traitlets/traitlets.py:2561: FutureWarning: --Exporter.preprocessors=[\"remove_papermill_header.RemovePapermillHeader\"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.\n"}
+,{"stream_name":"stderr","time":1065.322526388,"data":"  FutureWarning,\n"}
+,{"stream_name":"stderr","time":1065.322531744,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":1065.905459916,"data":"[NbConvertApp] Writing 876043 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":1066.967580898,"data":"/opt/conda/lib/python3.7/site-packages/traitlets/traitlets.py:2561: FutureWarning: --Exporter.preprocessors=[\"nbconvert.preprocessors.ExtractOutputPreprocessor\"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.\n"}
+,{"stream_name":"stderr","time":1066.967614628,"data":"  FutureWarning,\n"}
+,{"stream_name":"stderr","time":1066.967621014,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":1067.867449873,"data":"[NbConvertApp] Support files will be in __results___files/\n"}
+,{"stream_name":"stderr","time":1067.86759565,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":1067.867929539,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":1067.868524974,"data":"[NbConvertApp] Writing 440144 bytes to __results__.html\n"}
+]

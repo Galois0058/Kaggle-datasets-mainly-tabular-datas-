@@ -1,0 +1,29 @@
+[{
+  "data": "[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n",
+  "stream_name": "stderr",
+  "time": 2.4285087620082777
+},{
+  "data": "[NbConvertApp] Executing notebook with kernel: python3\n",
+  "stream_name": "stderr",
+  "time": 2.447582045002491
+},{
+  "data": "[NbConvertApp] Writing 3124671 bytes to __notebook__.ipynb\n",
+  "stream_name": "stderr",
+  "time": 29.17294272800791
+},{
+  "data": "[NbConvertApp] Converting notebook __notebook__.ipynb to html\n",
+  "stream_name": "stderr",
+  "time": 31.04989798500901
+},{
+  "data": "[NbConvertApp] Support files will be in __results___files/\n[NbConvertApp] Making directory __results___files\n",
+  "stream_name": "stderr",
+  "time": 31.47583162400406
+},{
+  "data": "[NbConvertApp] Making directory __results___files\n[NbConvertApp] Making directory __results___files\n[NbConvertApp] Making directory __results___files\n[NbConvertApp] Making directory __results___files\n[NbConvertApp] Making directory __results___files\n[NbConvertApp] Making directory __results___files\n[NbConvertApp] Making directory __results___files\n[NbConvertApp] Making directory __results___files\n[NbConvertApp] Making directory __results___files\n[NbConvertApp] Making directory __results___files\n[NbConvertApp] Making directory __results___files\n[NbConvertApp] Making directory __results___files\n[NbConvertApp] Making directory __results___files\n[NbConvertApp] Making directory __results___files\n",
+  "stream_name": "stderr",
+  "time": 31.478513561
+},{
+  "data": "[NbConvertApp] Writing 278869 bytes to __results__.html\n",
+  "stream_name": "stderr",
+  "time": 31.481627772998763
+}]
