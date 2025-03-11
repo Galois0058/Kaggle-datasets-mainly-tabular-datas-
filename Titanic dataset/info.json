@@ -1,0 +1,28 @@
+{
+    "name": "Titanic dataset",
+    "source": "https://www.kaggle.com/datasets/brendan45774/test-file/data",
+    "data_intro": null,
+    "is_splited": true,
+    "overall_size": 418,
+    "train_size": 0,
+    "test_size": 418,
+    "c_classes": 5,
+    "n_classes": 7,
+    "cat_feature_intro": {
+        "Name": {},
+        "Sex": {},
+        "Ticket": {},
+        "Cabin": {},
+        "Embarked": {}
+    },
+    "num_feature_intro": {
+        "PassengerId": {},
+        "Survived": "I took the titanic test file and the gender_submission and put them together in excel to make a csv. This is great for making charts to help you visualize. This also will help you know who died or survived. At least 70% right, but its up to you to make it 100% Thanks to the titanic beginners competitions for providing with the data. Please **Upvote** my dataset, it will mean a lot to me. Thank you!",
+        "Pclass": {},
+        "Age": {},
+        "SibSp": {},
+        "Parch": {},
+        "Fare": {}
+    },
+    "evaluation_metric": null
+}

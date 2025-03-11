@@ -1,0 +1,42 @@
+{
+    "name": "Used Cars Dataset",
+    "source": "https://www.kaggle.com/datasets/austinreese/craigslist-carstrucks-data/data",
+    "data_intro": "This data is scraped every few months, it contains most all relevant information that Craigslist provides on car sales including columns like price, condition, manufacturer, latitude/longitude, and 18 other categories. For ML projects, consider feature engineering on location columns such as long/lat. For previous listings, check older versions of the dataset.",
+    "is_splited": false,
+    "overall_size": 426880,
+    "train_size": 0,
+    "test_size": 0,
+    "c_classes": 19,
+    "n_classes": 7,
+    "cat_feature_intro": {
+        "url": {},
+        "region": {},
+        "region_url": {},
+        "manufacturer": "This data is scraped every few months, it contains most all relevant information that Craigslist provides on car sales including columns like price, condition, manufacturer, latitude/longitude, and 18 other categories. For ML projects, consider feature engineering on location columns such as long/lat. For previous listings, check older versions of the dataset.",
+        "model": {},
+        "condition": "This data is scraped every few months, it contains most all relevant information that Craigslist provides on car sales including columns like price, condition, manufacturer, latitude/longitude, and 18 other categories. For ML projects, consider feature engineering on location columns such as long/lat. For previous listings, check older versions of the dataset.",
+        "cylinders": {},
+        "fuel": {},
+        "title_status": {},
+        "transmission": {},
+        "VIN": {},
+        "drive": {},
+        "size": {},
+        "type": {},
+        "paint_color": {},
+        "image_url": {},
+        "description": {},
+        "state": "Craigslist is the world's largest collection of used vehicles for sale, yet it's very difficult to collect all of them in the same place. I built a scraper for a school project and expanded upon it later to create this dataset which includes every used vehicle entry within the United States on Craigslist.",
+        "posting_date": {}
+    },
+    "num_feature_intro": {
+        "id": "This data is scraped every few months, it contains most all relevant information that Craigslist provides on car sales including columns like price, condition, manufacturer, latitude/longitude, and 18 other categories. For ML projects, consider feature engineering on location columns such as long/lat. For previous listings, check older versions of the dataset.",
+        "price": "This data is scraped every few months, it contains most all relevant information that Craigslist provides on car sales including columns like price, condition, manufacturer, latitude/longitude, and 18 other categories. For ML projects, consider feature engineering on location columns such as long/lat. For previous listings, check older versions of the dataset.",
+        "year": {},
+        "odometer": {},
+        "county": {},
+        "lat": "This data is scraped every few months, it contains most all relevant information that Craigslist provides on car sales including columns like price, condition, manufacturer, latitude/longitude, and 18 other categories. For ML projects, consider feature engineering on location columns such as long/lat. For previous listings, check older versions of the dataset.",
+        "long": "This data is scraped every few months, it contains most all relevant information that Craigslist provides on car sales including columns like price, condition, manufacturer, latitude/longitude, and 18 other categories. For ML projects, consider feature engineering on location columns such as long/lat. For previous listings, check older versions of the dataset."
+    },
+    "evaluation_metric": null
+}

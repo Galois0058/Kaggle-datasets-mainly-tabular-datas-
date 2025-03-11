@@ -1,0 +1,28 @@
+{
+    "name": "Wine Quality Dataset",
+    "source": "https://www.kaggle.com/datasets/yasserh/wine-quality-dataset/data",
+    "data_intro": "This datasets is related to red variants of the Portuguese \"Vinho Verde\" wine.The dataset describes the amount of various chemicals present in wine and their effect on it's quality. The datasets can be viewed as classification or regression tasks. The classes are ordered and not balanced (e.g. there are much more normal wines than excellent or poor ones).Your task is to predict the quality of wine using the given data.",
+    "is_splited": false,
+    "overall_size": 1143,
+    "train_size": 0,
+    "test_size": 0,
+    "c_classes": 0,
+    "n_classes": 13,
+    "cat_feature_intro": {},
+    "num_feature_intro": {
+        "fixed acidity": "1 - fixed acidity\\",
+        "volatile acidity": "2 - volatile acidity\\",
+        "citric acid": "3 - citric acid\\",
+        "residual sugar": "4 - residual sugar\\",
+        "chlorides": "5 - chlorides\\",
+        "free sulfur dioxide": "6 - free sulfur dioxide\\",
+        "total sulfur dioxide": "7 - total sulfur dioxide\\",
+        "density": "8 - density\\",
+        "pH": "10 - sulphates\\",
+        "sulphates": "10 - sulphates\\",
+        "alcohol": "11 - alcohol\\",
+        "quality": "- Build classification models to predict the wine quality.",
+        "Id": "7 - total sulfur dioxide\\"
+    },
+    "evaluation_metric": null
+}

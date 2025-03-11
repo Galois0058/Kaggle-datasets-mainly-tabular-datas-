@@ -1,0 +1,39 @@
+{
+    "name": "Rain in Australia",
+    "source": "https://www.kaggle.com/datasets/jsphyg/weather-dataset-rattle-package/data",
+    "data_intro": "This dataset comprises about 10 years of daily weather observations from numerous locations across Australia.",
+    "is_splited": false,
+    "overall_size": 145460,
+    "train_size": 0,
+    "test_size": 0,
+    "c_classes": 7,
+    "n_classes": 16,
+    "cat_feature_intro": {
+        "Date": {},
+        "Location": "This dataset comprises about 10 years of daily weather observations from numerous locations across Australia.",
+        "WindGustDir": {},
+        "WindDir9am": {},
+        "WindDir3pm": {},
+        "RainToday": {},
+        "RainTomorrow": "**RainTomorrow is the target variable to predict. It answers the crucial question: will it rain the next day? (Yes or No).**"
+    },
+    "num_feature_intro": {
+        "MinTemp": {},
+        "MaxTemp": {},
+        "Rainfall": {},
+        "Evaporation": {},
+        "Sunshine": {},
+        "WindGustSpeed": {},
+        "WindSpeed9am": {},
+        "WindSpeed3pm": {},
+        "Humidity9am": {},
+        "Humidity3pm": {},
+        "Pressure9am": {},
+        "Pressure3pm": {},
+        "Cloud9am": {},
+        "Cloud3pm": {},
+        "Temp9am": {},
+        "Temp3pm": {}
+    },
+    "evaluation_metric": null
+}

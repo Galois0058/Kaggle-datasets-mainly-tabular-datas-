@@ -1,0 +1,29 @@
+{
+    "name": "titanic",
+    "source": "https://www.kaggle.com/competitions/titanic",
+    "data_intro": "Start here! Predict survival on the Titanic and get familiar with ML basics",
+    "is_splited": true,
+    "overall_size": 3399,
+    "train_size": 891,
+    "test_size": 418,
+    "c_classes": 10,
+    "n_classes": 23,
+    "cat_feature_intro": {
+        "Name": {},
+        "Sex": {},
+        "Ticket": {},
+        "Cabin": {},
+        "Embarked": {}
+    },
+    "num_feature_intro": {
+        "PassengerId": {},
+        "Survived": {},
+        "Pclass": {},
+        "Age": {},
+        "SibSp": {},
+        "Parch": {},
+        "Fare": {},
+        "PassengerID": {}
+    },
+    "evaluation_metric": "Categorization Accuracy"
+}

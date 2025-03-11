@@ -1,0 +1,29 @@
+{
+    "name": "Pokemon with stats",
+    "source": "https://www.kaggle.com/datasets/abcsds/pokemon/data",
+    "data_intro": "This data set includes 721 Pokemon, including their number, name, first and second type, and basic stats: HP, Attack, Defense, Special Attack, Special Defense, and Speed. It has been of great use when teaching statistics to kids. With certain types you can also give a geeky introduction to machine learning.",
+    "is_splited": false,
+    "overall_size": 800,
+    "train_size": 0,
+    "test_size": 0,
+    "c_classes": 3,
+    "n_classes": 10,
+    "cat_feature_intro": {
+        "Name": "- **Name**: Name of each pokemon",
+        "Type 1": "- **Type 1**: Each pokemon has a type, this determines weakness/resistance to attacks",
+        "Type 2": "- **Type 2**: Some pokemon are dual type and have 2"
+    },
+    "num_feature_intro": {
+        "#": "- **#**: ID for each pokemon",
+        "Total": "- **Total**: sum of all stats that come after this, a general guide to how strong a pokemon is",
+        "HP": "- **HP**: hit points, or health, defines how much damage a pokemon can withstand before fainting",
+        "Attack": "One question has been answered with this database: The type of a pokemon cannot be inferred only by it's Attack and Deffence. It would be worthy to find which two variables can define the type of a pokemon, if any. Two variables can be plotted in a 2D space, and used as an example for machine learning. This could mean the creation of a visual example any geeky Machine Learning class would love.",
+        "Defense": "- **Defense**: the base damage resistance against normal attacks",
+        "Sp. Atk": {},
+        "Sp. Def": {},
+        "Speed": "- **Speed**: determines which pokemon attacks first each round",
+        "Generation": {},
+        "Legendary": {}
+    },
+    "evaluation_metric": null
+}

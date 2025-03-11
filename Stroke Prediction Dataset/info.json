@@ -1,0 +1,28 @@
+{
+    "name": "Stroke Prediction Dataset",
+    "source": "https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset/data",
+    "data_intro": "This dataset is used to predict whether a patient is likely to get stroke based on the input parameters like gender, age, various diseases, and smoking status. Each row in the data provides relavant information about the patient.",
+    "is_splited": false,
+    "overall_size": 5110,
+    "train_size": 0,
+    "test_size": 0,
+    "c_classes": 5,
+    "n_classes": 7,
+    "cat_feature_intro": {
+        "gender": "2) gender: \"Male\", \"Female\" or \"Other\"",
+        "ever_married": {},
+        "work_type": {},
+        "Residence_type": {},
+        "smoking_status": {}
+    },
+    "num_feature_intro": {
+        "id": "**(Confidential Source)** - *Use only for educational purposes*",
+        "age": "9) avg\\_glucose\\_level: average glucose level in blood",
+        "hypertension": "4) hypertension: 0 if the patient doesn't have hypertension, 1 if the patient has hypertension",
+        "heart_disease": {},
+        "avg_glucose_level": {},
+        "bmi": "10) bmi: body mass index",
+        "stroke": "12) stroke: 1 if the patient had a stroke or 0 if not"
+    },
+    "evaluation_metric": null
+}

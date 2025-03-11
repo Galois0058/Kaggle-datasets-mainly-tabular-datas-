@@ -1,0 +1,27 @@
+{
+    "name": "Where it Pays to Attend College",
+    "source": "https://www.kaggle.com/datasets/wsj/college-salaries/data",
+    "data_intro": null,
+    "is_splited": false,
+    "overall_size": 639,
+    "train_size": 0,
+    "test_size": 0,
+    "c_classes": 23,
+    "n_classes": 1,
+    "cat_feature_intro": {
+        "Undergraduate Major": {},
+        "Starting Median Salary": {},
+        "Mid-Career Median Salary": {},
+        "Mid-Career 10th Percentile Salary": {},
+        "Mid-Career 25th Percentile Salary": {},
+        "Mid-Career 75th Percentile Salary": {},
+        "Mid-Career 90th Percentile Salary": {},
+        "School Name": {},
+        "School Type": {},
+        "Region": "[5]: http://online.wsj.com/public/resources/documents/info-Salaries_for_Colleges_by_Region-sort.html"
+    },
+    "num_feature_intro": {
+        "Percent change from Starting to Mid-Career Salary": {}
+    },
+    "evaluation_metric": null
+}

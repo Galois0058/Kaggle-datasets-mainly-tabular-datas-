@@ -1,0 +1,24 @@
+{
+    "name": "Reddit Vaccine Myths",
+    "source": "https://www.kaggle.com/datasets/gpreda/reddit-vaccine-myths/data",
+    "data_intro": "The data might contain a small percent of harsh language, the posts were not filtered.",
+    "is_splited": false,
+    "overall_size": 1602,
+    "train_size": 0,
+    "test_size": 0,
+    "c_classes": 5,
+    "n_classes": 3,
+    "cat_feature_intro": {
+        "title": "* title - relevant for posts",
+        "id": "* Identify discussion topics;",
+        "url": "* url - relevant for posts - url of post thread",
+        "body": "* body - relevant for posts/comments - text of the post or comment",
+        "timestamp": "* timestamp - timestamp"
+    },
+    "num_feature_intro": {
+        "score": "* score - relevant for posts - based on impact, number of comments",
+        "comms_num": {},
+        "created": "* created - date of creation"
+    },
+    "evaluation_metric": null
+}

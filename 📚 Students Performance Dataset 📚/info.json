@@ -1,0 +1,30 @@
+{
+    "name": "📚 Students Performance Dataset 📚",
+    "source": "https://www.kaggle.com/datasets/rabieelkharoua/students-performance-dataset/data",
+    "data_intro": "This dataset contains comprehensive information on 2,392 high school students, detailing their demographics, study habits, parental involvement, extracurricular activities, and academic performance. The target variable, `GradeClass`, classifies students' grades into distinct categories, providing a robust dataset for educational research, predictive modeling, and statistical analysis.",
+    "is_splited": false,
+    "overall_size": 2392,
+    "train_size": 0,
+    "test_size": 0,
+    "c_classes": 0,
+    "n_classes": 15,
+    "cat_feature_intro": {},
+    "num_feature_intro": {
+        "StudentID": "- **StudentID**: A unique identifier assigned to each student (1001 to 3392).",
+        "Age": "## Dataset Usage and Attribution Notice",
+        "Gender": "- **Gender**: Gender of the students, where 0 represents Male and 1 represents Female.",
+        "Ethnicity": "- **Ethnicity**: The ethnicity of the students, coded as follows:",
+        "ParentalEducation": "- **ParentalEducation**: The education level of the parents, coded as follows:",
+        "StudyTimeWeekly": "- **StudyTimeWeekly**: Weekly study time in hours, ranging from 0 to 20.",
+        "Absences": "- **Absences**: Number of absences during the school year, ranging from 0 to 30.",
+        "Tutoring": "- **Tutoring**: Tutoring status, where 0 indicates No and 1 indicates Yes.",
+        "ParentalSupport": "- **ParentalSupport**: The level of parental support, coded as follows:",
+        "Extracurricular": "- **GPA**: Grade Point Average on a scale from 2.0 to 4.0, influenced by study habits, parental involvement, and extracurricular activities.",
+        "Sports": "- **Sports**: Participation in sports, where 0 indicates No and 1 indicates Yes.",
+        "Music": "- **Music**: Participation in music activities, where 0 indicates No and 1 indicates Yes.",
+        "Volunteering": "- **Volunteering**: Participation in volunteering, where 0 indicates No and 1 indicates Yes.",
+        "GPA": "- 4: 'F' (GPA &lt; 2.0)",
+        "GradeClass": "- **GradeClass**: Classification of students' grades based on GPA:"
+    },
+    "evaluation_metric": null
+}

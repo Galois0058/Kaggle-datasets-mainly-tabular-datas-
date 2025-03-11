@@ -1,0 +1,30 @@
+{
+    "name": "spaceship-titanic",
+    "source": "https://www.kaggle.com/competitions/spaceship-titanic",
+    "data_intro": "Predict which passengers are transported to an alternate dimension",
+    "is_splited": true,
+    "overall_size": 25801,
+    "train_size": 8693,
+    "test_size": 4277,
+    "c_classes": 17,
+    "n_classes": 16,
+    "cat_feature_intro": {
+        "PassengerId": {},
+        "HomePlanet": {},
+        "CryoSleep": {},
+        "Cabin": {},
+        "Destination": {},
+        "VIP": {},
+        "Name": {}
+    },
+    "num_feature_intro": {
+        "Transported": {},
+        "Age": {},
+        "RoomService": {},
+        "FoodCourt": {},
+        "ShoppingMall": {},
+        "Spa": {},
+        "VRDeck": {}
+    },
+    "evaluation_metric": "Categorization Accuracy"
+}

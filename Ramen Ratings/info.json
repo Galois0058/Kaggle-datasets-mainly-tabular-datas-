@@ -1,0 +1,23 @@
+{
+    "name": "Ramen Ratings",
+    "source": "https://www.kaggle.com/datasets/residentmario/ramen-ratings/data",
+    "data_intro": "The Ramen Rater is a product review website for the hardcore ramen enthusiast (or \"ramenphile\"), with over 2500 reviews to date. This dataset is an export of \"The Big List\" (of reviews), converted to a CSV format.",
+    "is_splited": false,
+    "overall_size": 2580,
+    "train_size": 0,
+    "test_size": 0,
+    "c_classes": 6,
+    "n_classes": 1,
+    "cat_feature_intro": {
+        "Brand": "Each record in the dataset is a single ramen product review. Review numbers are contiguous: more recently reviewed ramen varieties have higher numbers. Brand, Variety (the product name), Country, and Style (Cup? Bowl? Tray?) are pretty self-explanatory. Stars indicate the ramen quality, as assessed by the reviewer, on a 5-point scale; this is the most important column in the dataset!",
+        "Variety": "Each record in the dataset is a single ramen product review. Review numbers are contiguous: more recently reviewed ramen varieties have higher numbers. Brand, Variety (the product name), Country, and Style (Cup? Bowl? Tray?) are pretty self-explanatory. Stars indicate the ramen quality, as assessed by the reviewer, on a 5-point scale; this is the most important column in the dataset!",
+        "Style": "Each record in the dataset is a single ramen product review. Review numbers are contiguous: more recently reviewed ramen varieties have higher numbers. Brand, Variety (the product name), Country, and Style (Cup? Bowl? Tray?) are pretty self-explanatory. Stars indicate the ramen quality, as assessed by the reviewer, on a 5-point scale; this is the most important column in the dataset!",
+        "Country": "Each record in the dataset is a single ramen product review. Review numbers are contiguous: more recently reviewed ramen varieties have higher numbers. Brand, Variety (the product name), Country, and Style (Cup? Bowl? Tray?) are pretty self-explanatory. Stars indicate the ramen quality, as assessed by the reviewer, on a 5-point scale; this is the most important column in the dataset!",
+        "Stars": "Each record in the dataset is a single ramen product review. Review numbers are contiguous: more recently reviewed ramen varieties have higher numbers. Brand, Variety (the product name), Country, and Style (Cup? Bowl? Tray?) are pretty self-explanatory. Stars indicate the ramen quality, as assessed by the reviewer, on a 5-point scale; this is the most important column in the dataset!",
+        "Top Ten": {}
+    },
+    "num_feature_intro": {
+        "Review #": {}
+    },
+    "evaluation_metric": null
+}

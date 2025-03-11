@@ -1,0 +1,29 @@
+{
+    "name": "Sleep Health and Lifestyle Dataset",
+    "source": "https://www.kaggle.com/datasets/uom190346a/sleep-health-and-lifestyle-dataset/data",
+    "data_intro": "The Sleep Health and Lifestyle Dataset comprises 400 rows and 13 columns, covering a wide range of variables related to sleep and daily habits. It includes details such as gender, age, occupation, sleep duration, quality of sleep, physical activity level, stress levels, BMI category, blood pressure, heart rate, daily steps, and the presence or absence of sleep disorders.",
+    "is_splited": false,
+    "overall_size": 374,
+    "train_size": 0,
+    "test_size": 0,
+    "c_classes": 5,
+    "n_classes": 8,
+    "cat_feature_intro": {
+        "Gender": "Gender: The gender of the person (Male/Female).<br>",
+        "Occupation": "Occupation: The occupation or profession of the person.<br>",
+        "BMI Category": "BMI Category: The BMI category of the person (e.g., Underweight, Normal, Overweight).<br>",
+        "Blood Pressure": "Blood Pressure (systolic/diastolic): The blood pressure measurement of the person, indicated as systolic pressure over diastolic pressure.<br>",
+        "Sleep Disorder": "- None: The individual does not exhibit any specific sleep disorder."
+    },
+    "num_feature_intro": {
+        "Person ID": "Person ID: An identifier for each individual.<br>",
+        "Age": "Physical Activity Level (minutes/day): The number of minutes the person engages in physical activity daily.<br>",
+        "Sleep Duration": "Sleep Duration (hours): The number of hours the person sleeps per day.<br>",
+        "Quality of Sleep": "Quality of Sleep (scale: 1-10): A subjective rating of the quality of sleep, ranging from 1 to 10.<br>",
+        "Physical Activity Level": "Physical Activity Level (minutes/day): The number of minutes the person engages in physical activity daily.<br>",
+        "Stress Level": "Stress Level (scale: 1-10): A subjective rating of the stress level experienced by the person, ranging from 1 to 10.<br>",
+        "Heart Rate": "Heart Rate (bpm): The resting heart rate of the person in beats per minute.<br>",
+        "Daily Steps": "Daily Steps: The number of steps the person takes per day.<br>"
+    },
+    "evaluation_metric": null
+}

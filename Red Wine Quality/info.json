@@ -1,0 +1,27 @@
+{
+    "name": "Red Wine Quality",
+    "source": "https://www.kaggle.com/datasets/uciml/red-wine-quality-cortez-et-al-2009/data",
+    "data_intro": "The two datasets are related to red and white variants of the Portuguese \"Vinho Verde\" wine. For more details, consult the reference [Cortez et al., 2009]. Due to privacy and logistic issues, only physicochemical (inputs) and sensory (the output) variables are available (e.g. there is no data about grape types, wine brand, wine selling price, etc.).",
+    "is_splited": false,
+    "overall_size": 1599,
+    "train_size": 0,
+    "test_size": 0,
+    "c_classes": 0,
+    "n_classes": 12,
+    "cat_feature_intro": {},
+    "num_feature_intro": {
+        "fixed acidity": "1 - fixed acidity <br>",
+        "volatile acidity": "2 - volatile acidity <br>",
+        "citric acid": "3 - citric acid <br>",
+        "residual sugar": "4 - residual sugar <br>",
+        "chlorides": "5 - chlorides <br>",
+        "free sulfur dioxide": "6 - free sulfur dioxide <br>",
+        "total sulfur dioxide": "7 - total sulfur dioxide <br>",
+        "density": "8 - density <br>",
+        "pH": "P. Cortez, A. Cerdeira, F. Almeida, T. Matos and J. Reis. Modeling wine preferences by data mining from physicochemical properties.",
+        "sulphates": "10 - sulphates <br>",
+        "alcohol": "11 - alcohol <br>",
+        "quality": "This dataset is also available from the UCI machine learning repository, https://archive.ics.uci.edu/ml/datasets/wine+quality , I just shared it to kaggle for convenience. *(I am mistaken and the public license type disallowed me from doing so, I will take this down at first request. I am not the owner of this dataset.*"
+    },
+    "evaluation_metric": null
+}

@@ -1,0 +1,21 @@
+{
+    "name": "nlp-getting-started",
+    "source": "https://www.kaggle.com/competitions/nlp-getting-started",
+    "data_intro": "Predict which Tweets are about real disasters and which ones are not",
+    "is_splited": true,
+    "overall_size": 14139,
+    "train_size": 7613,
+    "test_size": 3263,
+    "c_classes": 6,
+    "n_classes": 5,
+    "cat_feature_intro": {
+        "keyword": {},
+        "location": {},
+        "text": {}
+    },
+    "num_feature_intro": {
+        "id": {},
+        "target": {}
+    },
+    "evaluation_metric": "F-Score (Micro)"
+}

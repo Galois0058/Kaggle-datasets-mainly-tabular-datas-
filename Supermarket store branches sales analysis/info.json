@@ -1,0 +1,20 @@
+{
+    "name": "Supermarket store branches sales analysis",
+    "source": "https://www.kaggle.com/datasets/surajjha101/stores-area-and-sales-data/data",
+    "data_intro": "The data is obtained from the project from the University after seeking proper permission.",
+    "is_splited": false,
+    "overall_size": 896,
+    "train_size": 0,
+    "test_size": 0,
+    "c_classes": 0,
+    "n_classes": 5,
+    "cat_feature_intro": {},
+    "num_feature_intro": {
+        "Store ID ": {},
+        "Store_Area": "Store_Area: Physical Area of the store in yard square.",
+        "Items_Available": "Items_Available: Number of different items available in the corresponding store.",
+        "Daily_Customer_Count": "Daily_Customer_Count: Number of customers who visited to stores on an average over month.",
+        "Store_Sales": "Store_Sales: Sales in (US $) that stores made."
+    },
+    "evaluation_metric": null
+}

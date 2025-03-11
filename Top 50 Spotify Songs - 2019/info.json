@@ -1,0 +1,30 @@
+{
+    "name": "Top 50 Spotify Songs - 2019",
+    "source": "https://www.kaggle.com/datasets/leonardopena/top50spotify2019/data",
+    "data_intro": "The top 50 most listened songs in the world by spotify. This dataset has several variables about the songs.",
+    "is_splited": false,
+    "overall_size": 50,
+    "train_size": 0,
+    "test_size": 0,
+    "c_classes": 3,
+    "n_classes": 11,
+    "cat_feature_intro": {
+        "Track.Name": {},
+        "Artist.Name": {},
+        "Genre": "What can we know about the genre?"
+    },
+    "num_feature_intro": {
+        "Unnamed: 0": {},
+        "Beats.Per.Minute": {},
+        "Energy": {},
+        "Danceability": {},
+        "Loudness..dB..": {},
+        "Liveness": {},
+        "Valence.": {},
+        "Length.": {},
+        "Acousticness..": {},
+        "Speechiness.": {},
+        "Popularity": {}
+    },
+    "evaluation_metric": null
+}

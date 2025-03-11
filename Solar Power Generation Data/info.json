@@ -1,0 +1,26 @@
+{
+    "name": "Solar Power Generation Data",
+    "source": "https://www.kaggle.com/datasets/anikannal/solar-power-generation-data/data",
+    "data_intro": null,
+    "is_splited": false,
+    "overall_size": 142917,
+    "train_size": 0,
+    "test_size": 0,
+    "c_classes": 8,
+    "n_classes": 18,
+    "cat_feature_intro": {
+        "DATE_TIME": {},
+        "SOURCE_KEY": {}
+    },
+    "num_feature_intro": {
+        "PLANT_ID": {},
+        "DC_POWER": {},
+        "AC_POWER": {},
+        "DAILY_YIELD": {},
+        "TOTAL_YIELD": {},
+        "AMBIENT_TEMPERATURE": {},
+        "MODULE_TEMPERATURE": {},
+        "IRRADIATION": {}
+    },
+    "evaluation_metric": null
+}

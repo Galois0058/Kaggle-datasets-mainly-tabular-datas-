@@ -1,0 +1,32 @@
+{
+    "name": "store-sales-time-series-forecasting",
+    "source": "https://www.kaggle.com/competitions/store-sales-time-series-forecasting",
+    "data_intro": "Use machine learning to predict grocery sales",
+    "is_splited": true,
+    "overall_size": 3143022,
+    "train_size": 3000888,
+    "test_size": 28512,
+    "c_classes": 14,
+    "n_classes": 15,
+    "cat_feature_intro": {
+        "date": {},
+        "type": {},
+        "locale": {},
+        "locale_name": {},
+        "description": {},
+        "city": {},
+        "state": {},
+        "family": {}
+    },
+    "num_feature_intro": {
+        "transferred": {},
+        "dcoilwtico": {},
+        "id": {},
+        "sales": {},
+        "store_nbr": {},
+        "cluster": {},
+        "onpromotion": {},
+        "transactions": {}
+    },
+    "evaluation_metric": "Root Mean Squared Logarithmic Error"
+}

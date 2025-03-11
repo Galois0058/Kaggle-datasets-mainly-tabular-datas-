@@ -1,0 +1,28 @@
+{
+    "name": "playground-series-s5e3",
+    "source": "https://www.kaggle.com/competitions/playground-series-s5e3",
+    "data_intro": "Playground Series - Season 5, Episode 3",
+    "is_splited": true,
+    "overall_size": 3650,
+    "train_size": 2190,
+    "test_size": 730,
+    "c_classes": 0,
+    "n_classes": 27,
+    "cat_feature_intro": {},
+    "num_feature_intro": {
+        "id": {},
+        "rainfall": {},
+        "day": {},
+        "pressure": {},
+        "maxtemp": {},
+        "temparature": {},
+        "mintemp": {},
+        "dewpoint": {},
+        "humidity": {},
+        "cloud": {},
+        "sunshine": {},
+        "winddirection": {},
+        "windspeed": {}
+    },
+    "evaluation_metric": "Roc Auc Score"
+}

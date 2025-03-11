@@ -1,0 +1,37 @@
+{
+    "name": "Telco Customer Churn",
+    "source": "https://www.kaggle.com/datasets/blastchar/telco-customer-churn/data",
+    "data_intro": null,
+    "is_splited": false,
+    "overall_size": 7043,
+    "train_size": 0,
+    "test_size": 0,
+    "c_classes": 18,
+    "n_classes": 3,
+    "cat_feature_intro": {
+        "customerID": {},
+        "gender": "+ Demographic info about customers – gender, age range, and if they have partners and dependents",
+        "Partner": "+ Demographic info about customers – gender, age range, and if they have partners and dependents",
+        "Dependents": "+ Demographic info about customers – gender, age range, and if they have partners and dependents",
+        "PhoneService": {},
+        "MultipleLines": {},
+        "InternetService": {},
+        "OnlineSecurity": {},
+        "OnlineBackup": {},
+        "DeviceProtection": {},
+        "TechSupport": {},
+        "StreamingTV": {},
+        "StreamingMovies": {},
+        "Contract": "+ Customer account information – how long they’ve been a customer, contract, payment method, paperless billing, monthly charges, and total charges",
+        "PaperlessBilling": {},
+        "PaymentMethod": {},
+        "TotalCharges": {},
+        "Churn": "https://community.ibm.com/community/user/businessanalytics/blogs/steven-macko/2019/07/11/telco-customer-churn-1113"
+    },
+    "num_feature_intro": {
+        "SeniorCitizen": {},
+        "tenure": {},
+        "MonthlyCharges": {}
+    },
+    "evaluation_metric": null
+}

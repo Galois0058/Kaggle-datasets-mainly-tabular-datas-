@@ -1,0 +1,25 @@
+{
+    "name": "regression-tabular-california-housing",
+    "source": "https://www.kaggle.com/competitions/regression-tabular-california-housing",
+    "data_intro": "Knowledge base competition cloned from kaggle for California housing dataset",
+    "is_splited": true,
+    "overall_size": 86655,
+    "train_size": 37137,
+    "test_size": 24759,
+    "c_classes": 0,
+    "n_classes": 21,
+    "cat_feature_intro": {},
+    "num_feature_intro": {
+        "id": {},
+        "MedHouseVal": {},
+        "MedInc": {},
+        "HouseAge": {},
+        "AveRooms": {},
+        "AveBedrms": {},
+        "Population": {},
+        "AveOccup": {},
+        "Latitude": {},
+        "Longitude": {}
+    },
+    "evaluation_metric": "Root Mean Squared Error"
+}

@@ -1,0 +1,28 @@
+{
+    "name": "Netflix Movies and TV Shows",
+    "source": "https://www.kaggle.com/datasets/shivamb/netflix-shows/data",
+    "data_intro": null,
+    "is_splited": false,
+    "overall_size": 8807,
+    "train_size": 0,
+    "test_size": 0,
+    "c_classes": 11,
+    "n_classes": 1,
+    "cat_feature_intro": {
+        "show_id": {},
+        "type": {},
+        "title": {},
+        "director": "&gt; 3. Network analysis of Actors / Directors and find interesting insights",
+        "cast": "&gt; **About this Dataset:** *[Netflix](https://en.wikipedia.org/wiki/Netflix) is one of the most popular media and video streaming platforms. They have over 8000 movies or tv shows available on their platform, as of mid-2021, they have over 200M Subscribers globally. This tabular dataset consists of listings of all the movies and tv shows available on Netflix, along with details such as - cast, directors, ratings, release year, duration, etc.*",
+        "country": {},
+        "date_added": {},
+        "rating": "&gt; **About this Dataset:** *[Netflix](https://en.wikipedia.org/wiki/Netflix) is one of the most popular media and video streaming platforms. They have over 8000 movies or tv shows available on their platform, as of mid-2021, they have over 200M Subscribers globally. This tabular dataset consists of listings of all the movies and tv shows available on Netflix, along with details such as - cast, directors, ratings, release year, duration, etc.*",
+        "duration": "&gt; **About this Dataset:** *[Netflix](https://en.wikipedia.org/wiki/Netflix) is one of the most popular media and video streaming platforms. They have over 8000 movies or tv shows available on their platform, as of mid-2021, they have over 200M Subscribers globally. This tabular dataset consists of listings of all the movies and tv shows available on Netflix, along with details such as - cast, directors, ratings, release year, duration, etc.*",
+        "listed_in": {},
+        "description": {}
+    },
+    "num_feature_intro": {
+        "release_year": {}
+    },
+    "evaluation_metric": null
+}

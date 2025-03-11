@@ -1,0 +1,30 @@
+{
+    "name": "spam-emails12345",
+    "source": "https://www.kaggle.com/competitions/spam-emails12345",
+    "data_intro": "You need to determine whether the email is spam or not.",
+    "is_splited": true,
+    "overall_size": 35000,
+    "train_size": 15000,
+    "test_size": 10000,
+    "c_classes": 6,
+    "n_classes": 23,
+    "cat_feature_intro": {
+        "Surname": {},
+        "Geography": {},
+        "Gender": {}
+    },
+    "num_feature_intro": {
+        "id": {},
+        "Exited": {},
+        "CustomerId": {},
+        "CreditScore": {},
+        "Age": {},
+        "Tenure": {},
+        "Balance": {},
+        "NumOfProducts": {},
+        "HasCrCard": {},
+        "IsActiveMember": {},
+        "EstimatedSalary": {}
+    },
+    "evaluation_metric": "Roc Auc Score"
+}

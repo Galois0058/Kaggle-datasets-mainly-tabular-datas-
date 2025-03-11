@@ -1,0 +1,25 @@
+{
+    "name": "Water Quality",
+    "source": "https://www.kaggle.com/datasets/adityakadiwal/water-potability/data",
+    "data_intro": null,
+    "is_splited": false,
+    "overall_size": 3276,
+    "train_size": 0,
+    "test_size": 0,
+    "c_classes": 0,
+    "n_classes": 10,
+    "cat_feature_intro": {},
+    "num_feature_intro": {
+        "ph": {},
+        "Hardness": {},
+        "Solids": {},
+        "Chloramines": {},
+        "Sulfate": {},
+        "Conductivity": {},
+        "Organic_carbon": {},
+        "Trihalomethanes": {},
+        "Turbidity": {},
+        "Potability": {}
+    },
+    "evaluation_metric": null
+}

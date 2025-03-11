@@ -1,0 +1,29 @@
+{
+    "name": "Online Food Dataset",
+    "source": "https://www.kaggle.com/datasets/sudarshan24byte/online-food-dataset/data",
+    "data_intro": "The dataset contains information collected from an online food ordering platform over a period of time. It encompasses various attributes related to Occupation, Family Size, Feedback etc..",
+    "is_splited": false,
+    "overall_size": 388,
+    "train_size": 0,
+    "test_size": 0,
+    "c_classes": 8,
+    "n_classes": 5,
+    "cat_feature_intro": {
+        "Gender": "Gender: Gender of the customer.",
+        "Marital Status": "Marital Status: Marital status of the customer.",
+        "Occupation": "Occupation: Occupation of the customer.",
+        "Monthly Income": "Monthly Income: Monthly income of the customer.",
+        "Educational Qualifications": "Educational Qualifications: Educational qualifications of the customer.",
+        "Output": "Output: Current status of the order (e.g., pending, confirmed, delivered).",
+        "Feedback": "This dataset can be utilized to explore the relationship between demographic/location factors and online food ordering behavior, analyze customer feedback to improve service quality, and potentially predict customer preferences or behavior based on demographic and location attributes.",
+        "Unnamed: 12": {}
+    },
+    "num_feature_intro": {
+        "Age": "Age: Age of the customer.",
+        "Family size": "Family Size: Number of individuals in the customer's family.",
+        "latitude": "Latitude: Latitude of the customer's location.",
+        "longitude": "Longitude: Longitude of the customer's location.",
+        "Pin code": "Pin Code: Pin code of the customer's location."
+    },
+    "evaluation_metric": null
+}

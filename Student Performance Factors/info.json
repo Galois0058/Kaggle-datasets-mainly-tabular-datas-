@@ -1,0 +1,36 @@
+{
+    "name": "Student Performance Factors",
+    "source": "https://www.kaggle.com/datasets/lainguyn123/student-performance-factors/data",
+    "data_intro": "This dataset provides a comprehensive overview of various factors affecting student performance in exams. It includes information on study habits, attendance, parental involvement, and other aspects influencing academic success.",
+    "is_splited": false,
+    "overall_size": 6607,
+    "train_size": 0,
+    "test_size": 0,
+    "c_classes": 13,
+    "n_classes": 7,
+    "cat_feature_intro": {
+        "Parental_Involvement": "| **Parental_Involvement**   | Level of parental involvement in the student's education (Low, Medium, High).    |",
+        "Access_to_Resources": "| **Access_to_Resources**    | Availability of educational resources (Low, Medium, High).                       |",
+        "Extracurricular_Activities": "| **Extracurricular_Activities** | Participation in extracurricular activities (Yes, No).                     |",
+        "Motivation_Level": "| **Motivation_Level**       | Student's level of motivation (Low, Medium, High).                               |",
+        "Internet_Access": "| **Internet_Access**        | Availability of internet access (Yes, No).                                       |",
+        "Family_Income": "| **Family_Income**          | Family income level (Low, Medium, High).                                         |",
+        "Teacher_Quality": "| **Teacher_Quality**        | Quality of the teachers (Low, Medium, High).                                     |",
+        "School_Type": "| **School_Type**            | Type of school attended (Public, Private).                                       |",
+        "Peer_Influence": "| **Peer_Influence**         | Influence of peers on academic performance (Positive, Neutral, Negative).        |",
+        "Learning_Disabilities": "| **Learning_Disabilities**  | Presence of learning disabilities (Yes, No).                                     |",
+        "Parental_Education_Level": "| **Parental_Education_Level** | Highest education level of parents (High School, College, Postgraduate).      |",
+        "Distance_from_Home": "| **Distance_from_Home**     | Distance from home to school (Near, Moderate, Far).                              |",
+        "Gender": "| **Gender**                 | Gender of the student (Male, Female).                                            |"
+    },
+    "num_feature_intro": {
+        "Hours_Studied": "| **Hours_Studied**          | Number of hours spent studying per week.                                         |",
+        "Attendance": "| **Attendance**             | Percentage of classes attended.                                                 |",
+        "Sleep_Hours": "| **Sleep_Hours**            | Average number of hours of sleep per night.                                      |",
+        "Previous_Scores": "| **Previous_Scores**        | Scores from previous exams.                                                      |",
+        "Tutoring_Sessions": "| **Tutoring_Sessions**      | Number of tutoring sessions attended per month.                                  |",
+        "Physical_Activity": "| **Physical_Activity**      | Average number of hours of physical activity per week.                           |",
+        "Exam_Score": "| **Exam_Score**             | Final exam score.                                                                |"
+    },
+    "evaluation_metric": null
+}

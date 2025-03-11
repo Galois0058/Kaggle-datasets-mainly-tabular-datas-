@@ -1,0 +1,39 @@
+{
+    "name": "TMDB 5000 Movie Dataset",
+    "source": "https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata/data",
+    "data_intro": "This is a great place to start digging in to those questions, with data on the plot, cast, crew, budget, and revenues of several thousand films.",
+    "is_splited": false,
+    "overall_size": 9606,
+    "train_size": 0,
+    "test_size": 0,
+    "c_classes": 16,
+    "n_classes": 8,
+    "cat_feature_intro": {
+        "title": "- Can you categorize the films by type, such as animated or not? We don't have explicit labels for this, but it should be possible to build them from the crew's job titles.",
+        "cast": "- cast_total_facebook_likes",
+        "crew": "- Can you categorize the films by type, such as animated or not? We don't have explicit labels for this, but it should be possible to build them from the crew's job titles.",
+        "genres": "- All fields are filled out by users so don't expect them to agree on keywords, genres, ratings, or the like.",
+        "homepage": "- homepage",
+        "keywords": "- All fields are filled out by users so don't expect them to agree on keywords, genres, ratings, or the like.",
+        "original_language": {},
+        "original_title": "- original_title",
+        "overview": "- overview",
+        "production_companies": "- production_companies",
+        "production_countries": "- production_countries",
+        "release_date": "- release_date",
+        "spoken_languages": "- spoken_languages",
+        "status": "- status",
+        "tagline": "- tagline"
+    },
+    "num_feature_intro": {
+        "movie_id": {},
+        "budget": "- This dataset hasn't yet gone through a data quality analysis. Can you find any obvious corrections? For example, in the IMDb version it was necessary to treat values of zero in the budget field as missing. Similar findings would be very helpful to your fellow Kagglers! (It's probably a good idea to keep treating zeros as missing, with the caveat that missing budgets much more likely to have been from small budget films in the first place).",
+        "id": "Their API also provides access to data on many additiona...",
+        "popularity": "- popularity",
+        "revenue": "- Are the budgets and revenues all in US dollars? Do they consistently show the global revenues?",
+        "runtime": "- Even in simple fields like runtime may not be consistent across versions. For example, previous dataset shows the duration for Avatar's extended cut while TMDB shows the time for the original version.",
+        "vote_average": "- vote_average",
+        "vote_count": {}
+    },
+    "evaluation_metric": null
+}

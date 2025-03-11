@@ -1,0 +1,29 @@
+{
+    "name": "SF Salaries",
+    "source": "https://www.kaggle.com/datasets/kaggle/sf-salaries/data",
+    "data_intro": "The original source for this data is [here](http://transparentcalifornia.com/salaries/san-francisco/). We've taken the raw files here and combined/normalized them into a single CSV file as well as a SQLite database with an equivalently-defined table.",
+    "is_splited": false,
+    "overall_size": 148654,
+    "train_size": 0,
+    "test_size": 0,
+    "c_classes": 8,
+    "n_classes": 5,
+    "cat_feature_intro": {
+        "EmployeeName": {},
+        "JobTitle": {},
+        "BasePay": {},
+        "OvertimePay": {},
+        "OtherPay": {},
+        "Benefits": "- How are base pay, overtime pay, and benefits allocated between different groups?",
+        "Agency": {},
+        "Status": {}
+    },
+    "num_feature_intro": {
+        "Id": "Have other ideas you're curious for someone else to explore? Post them in [this forum thread](https://www.kaggle.com/forums/f/977/sf-salaries/t/18264/sf-salaries-dataset).",
+        "TotalPay": {},
+        "TotalPayBenefits": {},
+        "Year": {},
+        "Notes": {}
+    },
+    "evaluation_metric": null
+}

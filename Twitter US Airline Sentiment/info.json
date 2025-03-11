@@ -1,0 +1,31 @@
+{
+    "name": "Twitter US Airline Sentiment",
+    "source": "https://www.kaggle.com/datasets/crowdflower/twitter-airline-sentiment/data",
+    "data_intro": "The data we're providing on Kaggle is a slightly reformatted version of the original source. It includes both a CSV file and SQLite database. The code that does these transformations is [available on GitHub](https://github.com/benhamner/crowdflower-airline-twitter-sentiment)",
+    "is_splited": false,
+    "overall_size": 14640,
+    "train_size": 0,
+    "test_size": 0,
+    "c_classes": 11,
+    "n_classes": 4,
+    "cat_feature_intro": {
+        "airline_sentiment": {},
+        "negativereason": {},
+        "airline": "[![airline sentiment graph](https://www.kaggle.io/svf/136065/a6e055ee6d877d2f7784dc42a15ecc43/airlineSentimentPlot.png)](https://www.kaggle.com/benhamner/d/crowdflower/twitter-airline-sentiment/exploring-airline-twitter-sentiment-data)",
+        "airline_sentiment_gold": {},
+        "name": {},
+        "negativereason_gold": {},
+        "text": {},
+        "tweet_coord": {},
+        "tweet_created": {},
+        "tweet_location": {},
+        "user_timezone": {}
+    },
+    "num_feature_intro": {
+        "tweet_id": {},
+        "airline_sentiment_confidence": {},
+        "negativereason_confidence": {},
+        "retweet_count": {}
+    },
+    "evaluation_metric": null
+}
