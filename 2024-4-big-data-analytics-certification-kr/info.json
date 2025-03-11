@@ -1,0 +1,26 @@
+{
+    "name": "2024-4-big-data-analytics-certification-kr",
+    "source": "https://www.kaggle.com/competitions/2024-4-big-data-analytics-certification-kr",
+    "data_intro": "게 나이 예측",
+    "is_splited": true,
+    "overall_size": 35000,
+    "train_size": 15000,
+    "test_size": 10000,
+    "c_classes": 2,
+    "n_classes": 19,
+    "cat_feature_intro": {
+        "Sex": {}
+    },
+    "num_feature_intro": {
+        "id": {},
+        "Age": {},
+        "Length": {},
+        "Diameter": {},
+        "Height": {},
+        "Weight": {},
+        "Shucked Weight": {},
+        "Viscera Weight": {},
+        "Shell Weight": {}
+    },
+    "evaluation_metric": "Mean Absolute Error"
+}

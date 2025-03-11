@@ -1,0 +1,28 @@
+{
+    "name": "chydv-hackathon-2025",
+    "source": "https://www.kaggle.com/competitions/chydv-hackathon-2025",
+    "data_intro": "Predicting Wine Quality Using Regression Analysis.",
+    "is_splited": true,
+    "overall_size": 35000,
+    "train_size": 15000,
+    "test_size": 10000,
+    "c_classes": 0,
+    "n_classes": 27,
+    "cat_feature_intro": {},
+    "num_feature_intro": {
+        "id": {},
+        "quality": {},
+        "fixed acidity": {},
+        "volatile acidity": {},
+        "citric acid": {},
+        "residual sugar": {},
+        "chlorides": {},
+        "free sulfur dioxide": {},
+        "total sulfur dioxide": {},
+        "density": {},
+        "pH": {},
+        "sulphates": {},
+        "alcohol": {}
+    },
+    "evaluation_metric": "Cohen Kappa Score"
+}

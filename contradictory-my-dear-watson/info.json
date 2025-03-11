@@ -1,0 +1,23 @@
+{
+    "name": "contradictory-my-dear-watson",
+    "source": "https://www.kaggle.com/competitions/contradictory-my-dear-watson",
+    "data_intro": "Detecting contradiction and entailment in multilingual text using TPUs",
+    "is_splited": true,
+    "overall_size": 22510,
+    "train_size": 12120,
+    "test_size": 5195,
+    "c_classes": 11,
+    "n_classes": 2,
+    "cat_feature_intro": {
+        "id": {},
+        "premise": {},
+        "hypothesis": {},
+        "lang_abv": {},
+        "language": {}
+    },
+    "num_feature_intro": {
+        "prediction": {},
+        "label": {}
+    },
+    "evaluation_metric": "Categorization Accuracy"
+}

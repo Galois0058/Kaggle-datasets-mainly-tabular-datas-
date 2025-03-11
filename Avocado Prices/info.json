@@ -1,0 +1,30 @@
+{
+    "name": "Avocado Prices",
+    "source": "https://www.kaggle.com/datasets/neuromusic/avocado-prices/data",
+    "data_intro": "This data was downloaded from the Hass Avocado Board website in May of 2018 &amp; compiled into a single CSV. Here's how the [Hass Avocado Board describes the data on their website][1]:",
+    "is_splited": false,
+    "overall_size": 18249,
+    "train_size": 0,
+    "test_size": 0,
+    "c_classes": 3,
+    "n_classes": 11,
+    "cat_feature_intro": {
+        "Date": "- `Date` - The date of the observation",
+        "type": "- `type` - conventional or organic",
+        "region": "- `Region` - the city or region of the observation"
+    },
+    "num_feature_intro": {
+        "Unnamed: 0": {},
+        "AveragePrice": "- `AveragePrice` - the average price of a single avocado",
+        "Total Volume": "- `Total Volume` - Total number of avocados sold",
+        "4046": "- `4046` - Total number of avocados with PLU 4046 sold",
+        "4225": "- `4225` - Total number of avocados with PLU 4225 sold",
+        "4770": "- `4770` - Total number of avocados with PLU 4770 sold",
+        "Total Bags": {},
+        "Small Bags": {},
+        "Large Bags": {},
+        "XLarge Bags": {},
+        "year": "- `year` - the year"
+    },
+    "evaluation_metric": null
+}

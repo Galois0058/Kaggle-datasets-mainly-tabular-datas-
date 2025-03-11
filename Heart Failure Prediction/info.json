@@ -1,0 +1,28 @@
+{
+    "name": "Heart Failure Prediction",
+    "source": "https://www.kaggle.com/datasets/andrewmvd/heart-failure-clinical-data/data",
+    "data_intro": null,
+    "is_splited": false,
+    "overall_size": 299,
+    "train_size": 0,
+    "test_size": 0,
+    "c_classes": 0,
+    "n_classes": 13,
+    "cat_feature_intro": {},
+    "num_feature_intro": {
+        "age": "Wallpaper by [jcomp](https://br.freepik.com/jcomp), available on [Freepik](https://br.freepik.com/fotos-gratis/simplesmente-design-minimalista-com-estetoscopio-de-equipamento-de-medicina-ou-phonendoscope_5018002.htm#page=1&amp;query=cardiology&amp;position=3).",
+        "anaemia": {},
+        "creatinine_phosphokinase": {},
+        "diabetes": "&gt; People with cardiovascular disease or who are at high cardiovascular risk (due to the presence of one or more risk factors such as hypertension, diabetes, hyperlipidaemia or already established disease) need **early detection** and management wherein a machine learning model can be of great help.",
+        "ejection_fraction": {},
+        "high_blood_pressure": {},
+        "platelets": {},
+        "serum_creatinine": {},
+        "serum_sodium": {},
+        "sex": {},
+        "smoking": {},
+        "time": {},
+        "DEATH_EVENT": {}
+    },
+    "evaluation_metric": null
+}

@@ -1,0 +1,38 @@
+{
+    "name": "2022 Russia Ukraine War",
+    "source": "https://www.kaggle.com/datasets/piterfm/2022-ukraine-russian-war/data",
+    "data_intro": "This dataset describes Equipment Losses &amp; Death Toll &amp; Military Wounded &amp; Prisoner of War of russians in 2022 Ukraine russia War.",
+    "is_splited": false,
+    "overall_size": 2227,
+    "train_size": 0,
+    "test_size": 0,
+    "c_classes": 5,
+    "n_classes": 35,
+    "cat_feature_intro": {
+        "date": "1. Main data sources are [General Staff of the Armed Forces of Ukraine](https://www.zsu.gov.ua/en) and [Ministry of Defence of Ukraine](https://www.mil.gov.ua/en/). Data from different battlefields are gathered. The calculation is complicated by the high intensity of hostilities. Data are being updated.",
+        "greatest losses direction": {},
+        "personnel*": {}
+    },
+    "num_feature_intro": {
+        "day": "**Each new record is accumulated data from previous days**",
+        "aircraft": {},
+        "helicopter": {},
+        "tank": {},
+        "APC": {},
+        "field artillery": {},
+        "MRL": {},
+        "military auto": {},
+        "fuel tank": {},
+        "drone": "- [Massive Missile Attacks on Ukraine](https://www.kaggle.com/datasets/piterfm/massive-missile-attacks-on-ukraine) - detailed information about launched and shot down missiles and drones during Massive Missile Attacks.",
+        "naval ship": {},
+        "anti-aircraft warfare": {},
+        "special equipment": {},
+        "mobile SRBM system": {},
+        "vehicles and fuel tanks": {},
+        "cruise missiles": {},
+        "submarines": "- [russian navy (Military Maritime Fleet)](https://www.kaggle.com/datasets/piterfm/russian-navy) - all Surface Combatants, Submarines, Littoral Warfare Ships, Rescue, and Auxiliary Ships. Ship losses During The 2022 Russian Invasion Of Ukraine are included.",
+        "personnel": "- `russia_losses_personnel.csv`- contains Personnel Losses during the war",
+        "POW": "2. [Invaders](https://invaders-rf.com/) - Russians Prisoner of War (POW). The project is not active since May of 2022."
+    },
+    "evaluation_metric": null
+}

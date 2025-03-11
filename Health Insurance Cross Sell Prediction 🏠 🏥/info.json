@@ -1,0 +1,28 @@
+{
+    "name": "Health Insurance Cross Sell Prediction 🏠 🏥",
+    "source": "https://www.kaggle.com/datasets/anmolkumar/health-insurance-cross-sell-prediction/data",
+    "data_intro": "The evaluation metric for this hackathon is ROC_AUC score.",
+    "is_splited": true,
+    "overall_size": 635183,
+    "train_size": 381109,
+    "test_size": 127037,
+    "c_classes": 6,
+    "n_classes": 19,
+    "cat_feature_intro": {
+        "Gender": "|Gender\t|Gender of the customer|",
+        "Vehicle_Age": "|Vehicle_Age\t|Age of the Vehicle |",
+        "Vehicle_Damage": "|Vehicle_Damage|1 : Customer got his/her vehicle damaged in the past. 0 : Customer didn't get his/her vehicle damaged in the past.|"
+    },
+    "num_feature_intro": {
+        "id": "2. Code file for reproducing the submission, note that it is mandatory to submit your code for a valid final submission",
+        "Response": "1. Solution file containing the predicted response of the customer (Probability of response 1)",
+        "Age": "|Vintage\t|Number of Days, Customer has been associated with the company|",
+        "Driving_License": "|Driving_License\t|0 : Customer does not have DL, 1 : Customer already has DL|",
+        "Region_Code": "|Region_Code\t|Unique code for the region of the customer|",
+        "Previously_Insured": "|Previously_Insured\t|1 : Customer already has Vehicle Insurance, 0 : Customer doesn't have Vehicle Insurance|",
+        "Annual_Premium": "|Annual_Premium\t|The amount customer needs to pay as premium in the year|",
+        "Policy_Sales_Channel": "|Policy_Sales_Channel\t|Anonymised Code for the channel of outreaching to the customer ie. Different Agents, Over Mail, Over Phone, In Person, etc.|",
+        "Vintage": "|Vintage\t|Number of Days, Customer has been associated with the company|"
+    },
+    "evaluation_metric": null
+}

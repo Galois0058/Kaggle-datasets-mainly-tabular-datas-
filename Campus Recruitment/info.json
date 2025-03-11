@@ -1,0 +1,31 @@
+{
+    "name": "Campus Recruitment",
+    "source": "https://www.kaggle.com/datasets/benroshan/factors-affecting-campus-placement/data",
+    "data_intro": "This data set consists of Placement data of students in a XYZ campus. It includes secondary and higher secondary school percentage and specialization. It also includes degree specialization, type and Work experience and salary offers to the placed students",
+    "is_splited": false,
+    "overall_size": 215,
+    "train_size": 0,
+    "test_size": 0,
+    "c_classes": 8,
+    "n_classes": 7,
+    "cat_feature_intro": {
+        "gender": {},
+        "ssc_b": {},
+        "hsc_b": {},
+        "hsc_s": {},
+        "degree_t": {},
+        "workex": {},
+        "specialisation": {},
+        "status": {}
+    },
+    "num_feature_intro": {
+        "sl_no": {},
+        "ssc_p": {},
+        "hsc_p": {},
+        "degree_p": {},
+        "etest_p": {},
+        "mba_p": {},
+        "salary": "This data set consists of Placement data of students in a XYZ campus. It includes secondary and higher secondary school percentage and specialization. It also includes degree specialization, type and Work experience and salary offers to the placed students"
+    },
+    "evaluation_metric": null
+}

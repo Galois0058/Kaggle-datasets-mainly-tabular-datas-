@@ -1,0 +1,26 @@
+{
+    "name": "Cryptocurrency Historical Prices",
+    "source": "https://www.kaggle.com/datasets/sudalairajkumar/cryptocurrencypricehistory/data",
+    "data_intro": "This will help understand the other factors related to Bitcoin price and also help one make future predictions in a better way than just using the historical price.",
+    "is_splited": false,
+    "overall_size": 37082,
+    "train_size": 0,
+    "test_size": 0,
+    "c_classes": 69,
+    "n_classes": 161,
+    "cat_feature_intro": {
+        "Name": {},
+        "Symbol": {},
+        "Date": "- Date : date of observation"
+    },
+    "num_feature_intro": {
+        "SNo": {},
+        "High": "- High : Highest price on the given day",
+        "Low": "- Low : Lowest price on the given day",
+        "Open": "- Open : Opening price on the given day",
+        "Close": "- Close : Closing price on the given day",
+        "Volume": "- Volume : Volume of transactions on the given day",
+        "Marketcap": "[6]: https://coinmarketcap.com/faq/"
+    },
+    "evaluation_metric": null
+}

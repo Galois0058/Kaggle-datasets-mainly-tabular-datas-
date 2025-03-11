@@ -1,0 +1,16 @@
+{
+    "name": "Customer Personality Analysis",
+    "source": "https://www.kaggle.com/datasets/imakash3011/customer-personality-analysis/data",
+    "data_intro": "The dataset for this project is provided by Dr. Omar Romero-Hernandez.",
+    "is_splited": false,
+    "overall_size": 2240,
+    "train_size": 0,
+    "test_size": 0,
+    "c_classes": 1,
+    "n_classes": 0,
+    "cat_feature_intro": {
+        "ID\tYear_Birth\tEducation\tMarital_Status\tIncome\tKidhome\tTeenhome\tDt_Customer\tRecency\tMntWines\tMntFruits\tMntMeatProducts\tMntFishProducts\tMntSweetProducts\tMntGoldProds\tNumDealsPurchases\tNumWebPurchases\tNumCatalogPurchases\tNumStorePurchases\tNumWebVisitsMonth\tAcceptedCmp3\tAcceptedCmp4\tAcceptedCmp5\tAcceptedCmp1\tAcceptedCmp2\tComplain\tZ_CostContact\tZ_Revenue\tResponse": {}
+    },
+    "num_feature_intro": {},
+    "evaluation_metric": null
+}

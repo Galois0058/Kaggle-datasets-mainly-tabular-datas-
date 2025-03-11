@@ -1,0 +1,21 @@
+{
+    "name": "Bitcoin Historical Data",
+    "source": "https://www.kaggle.com/datasets/mczielinski/bitcoin-historical-data/data",
+    "data_intro": null,
+    "is_splited": false,
+    "overall_size": 6778281,
+    "train_size": 0,
+    "test_size": 0,
+    "c_classes": 0,
+    "n_classes": 6,
+    "cat_feature_intro": {},
+    "num_feature_intro": {
+        "Timestamp": "If a timestamp is missing, or if there are jumps, this may be because the exchange (or its API) was down, the exchange (or its API) did not exist, or some other unforeseen technical error in data reporting or gathering. All effort has been made to deduplicate entries and verify the contents are correct and complete to the best of my ability, but obviously trust at your own risk.",
+        "Open": "CSV files for select bitcoin exchanges for the time period of Jan 2012 to Present (Measured by UTC day), with minute to minute updates of OHLC (Open, High, Low, Close) and Volume in BTC.",
+        "High": "CSV files for select bitcoin exchanges for the time period of Jan 2012 to Present (Measured by UTC day), with minute to minute updates of OHLC (Open, High, Low, Close) and Volume in BTC.",
+        "Low": "CSV files for select bitcoin exchanges for the time period of Jan 2012 to Present (Measured by UTC day), with minute to minute updates of OHLC (Open, High, Low, Close) and Volume in BTC.",
+        "Close": "CSV files for select bitcoin exchanges for the time period of Jan 2012 to Present (Measured by UTC day), with minute to minute updates of OHLC (Open, High, Low, Close) and Volume in BTC.",
+        "Volume": "Bitcoin charts for the data, originally. Now thank you to the Bitstamp API directly. The various exchange APIs, for making it difficult or unintuitive enough to get OHLC and volume data at 1-min intervals that I set out on this data scraping project. Satoshi Nakamoto and the novel core concept of the blockchain, as well as its first execution via the bitcoin protocol. I'd also like to thank viewers like you! Can't wait to see what code or insights you all have to share."
+    },
+    "evaluation_metric": null
+}

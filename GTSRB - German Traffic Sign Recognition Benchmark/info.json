@@ -1,0 +1,27 @@
+{
+    "name": "GTSRB - German Traffic Sign Recognition Benchmark",
+    "source": "https://www.kaggle.com/datasets/meowmeowmeowmeowmeow/gtsrb-german-traffic-sign/data",
+    "data_intro": "The German Traffic Sign Benchmark is a multi-class, single-image classification challenge held at the International Joint Conference on Neural Networks (IJCNN) 2011. We cordially invite researchers from relevant fields to participate: The competition is designed to allow for participation without special domain knowledge. Our benchmark has the following properties:",
+    "is_splited": true,
+    "overall_size": 51882,
+    "train_size": 39209,
+    "test_size": 12630,
+    "c_classes": 4,
+    "n_classes": 17,
+    "cat_feature_intro": {
+        "Path": {},
+        "SignId": {}
+    },
+    "num_feature_intro": {
+        "ClassId": {},
+        "ShapeId": {},
+        "ColorId": {},
+        "Width": {},
+        "Height": {},
+        "Roi.X1": {},
+        "Roi.Y1": {},
+        "Roi.X2": {},
+        "Roi.Y2": {}
+    },
+    "evaluation_metric": null
+}

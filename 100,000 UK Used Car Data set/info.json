@@ -1,0 +1,34 @@
+{
+    "name": "100,000 UK Used Car Data set",
+    "source": "https://www.kaggle.com/datasets/adityadesai13/used-car-dataset-ford-and-mercedes/data",
+    "data_intro": "The cleaned data set contains information of price, transmission, mileage, fuel type, road tax, miles per gallon (mpg), and engine size. I've removed duplicate listings and cleaned the columns, but have included a notebook showing the process and the original data for anyone who wants to check/improve my work.",
+    "is_splited": false,
+    "overall_size": 118150,
+    "train_size": 0,
+    "test_size": 0,
+    "c_classes": 53,
+    "n_classes": 64,
+    "cat_feature_intro": {
+        "model": "Picked two fairly common cars on the British market for analysis (Ford Focus and Mercedes C Class). The hope is to find info such as: when is the ideal time to sell certain cars (i.e. at what age and mileage are there significant drops in resale value). Also can make comparisons between the two, and make a classifier for a ford or Mercedes car. Can easily add more makes and models, so comment for any request e.g. if you want a big data set of all Mercedes makes and models.",
+        "transmission": "The cleaned data set contains information of price, transmission, mileage, fuel type, road tax, miles per gallon (mpg), and engine size. I've removed duplicate listings and cleaned the columns, but have included a notebook showing the process and the original data for anyone who wants to check/improve my work.",
+        "fuelType": {},
+        "price": "The cleaned data set contains information of price, transmission, mileage, fuel type, road tax, miles per gallon (mpg), and engine size. I've removed duplicate listings and cleaned the columns, but have included a notebook showing the process and the original data for anyone who wants to check/improve my work.",
+        "mileage": "The cleaned data set contains information of price, transmission, mileage, fuel type, road tax, miles per gallon (mpg), and engine size. I've removed duplicate listings and cleaned the columns, but have included a notebook showing the process and the original data for anyone who wants to check/improve my work.",
+        "fuel type": "The cleaned data set contains information of price, transmission, mileage, fuel type, road tax, miles per gallon (mpg), and engine size. I've removed duplicate listings and cleaned the columns, but have included a notebook showing the process and the original data for anyone who wants to check/improve my work.",
+        "engine size": "The cleaned data set contains information of price, transmission, mileage, fuel type, road tax, miles per gallon (mpg), and engine size. I've removed duplicate listings and cleaned the columns, but have included a notebook showing the process and the original data for anyone who wants to check/improve my work.",
+        "mileage2": {},
+        "fuel type2": {},
+        "engine size2": {},
+        "reference": {}
+    },
+    "num_feature_intro": {
+        "year": {},
+        "price": "The cleaned data set contains information of price, transmission, mileage, fuel type, road tax, miles per gallon (mpg), and engine size. I've removed duplicate listings and cleaned the columns, but have included a notebook showing the process and the original data for anyone who wants to check/improve my work.",
+        "mileage": "The cleaned data set contains information of price, transmission, mileage, fuel type, road tax, miles per gallon (mpg), and engine size. I've removed duplicate listings and cleaned the columns, but have included a notebook showing the process and the original data for anyone who wants to check/improve my work.",
+        "tax": "The cleaned data set contains information of price, transmission, mileage, fuel type, road tax, miles per gallon (mpg), and engine size. I've removed duplicate listings and cleaned the columns, but have included a notebook showing the process and the original data for anyone who wants to check/improve my work.",
+        "mpg": "The cleaned data set contains information of price, transmission, mileage, fuel type, road tax, miles per gallon (mpg), and engine size. I've removed duplicate listings and cleaned the columns, but have included a notebook showing the process and the original data for anyone who wants to check/improve my work.",
+        "engineSize": {},
+        "tax(£)": {}
+    },
+    "evaluation_metric": null
+}

@@ -1,0 +1,23 @@
+{
+    "name": "Amazon Top 50 Bestselling Books 2009 - 2019",
+    "source": "https://www.kaggle.com/datasets/sootersaalu/amazon-top-50-bestselling-books-2009-2019/data",
+    "data_intro": null,
+    "is_splited": false,
+    "overall_size": 550,
+    "train_size": 0,
+    "test_size": 0,
+    "c_classes": 3,
+    "n_classes": 4,
+    "cat_feature_intro": {
+        "Name": {},
+        "Author": {},
+        "Genre": {}
+    },
+    "num_feature_intro": {
+        "User Rating": {},
+        "Reviews": {},
+        "Price": {},
+        "Year": {}
+    },
+    "evaluation_metric": null
+}

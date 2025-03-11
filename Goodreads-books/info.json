@@ -1,0 +1,28 @@
+{
+    "name": "Goodreads-books",
+    "source": "https://www.kaggle.com/datasets/jealousleopard/goodreadsbooks/data",
+    "data_intro": "The primary reason for creating this dataset is the requirement of a good clean dataset of books. Being a bookie myself (see what I did there?) I had searched for datasets on books in kaggle itself - and I found out that while most of the datasets had a good amount of books listed, there were either a) major columns missing or b) grossly unclean data. I mean, you can't determine how good a book is just from a few text reviews, come on! What I needed were numbers, solid integers and floats that say how many people liked the book or hated it, how much did they like it, and stuff like that. Even the [good dataset](https://www.kaggle.com/zygmunt/goodbooks-10k#books.csv) that I found was well-cleaned, it had a number of interlinked files, which increased the hassle. This prompted me to use the Goodreads API to get a well-cleaned dataset, with the promising features only ( minus the redundant ones ), and the result is the dataset you're at now.",
+    "is_splited": false,
+    "overall_size": 11119,
+    "train_size": 0,
+    "test_size": 0,
+    "c_classes": 6,
+    "n_classes": 6,
+    "cat_feature_intro": {
+        "title": {},
+        "authors": "You have the information about the publisher and the publication date now! Also, multiple authors are now delimited by '/'. Enjoy!",
+        "isbn": {},
+        "language_code": {},
+        "publication_date": {},
+        "publisher": "You have the information about the publisher and the publication date now! Also, multiple authors are now delimited by '/'. Enjoy!"
+    },
+    "num_feature_intro": {
+        "bookID": {},
+        "average_rating": {},
+        "isbn13": {},
+        "  num_pages": {},
+        "ratings_count": {},
+        "text_reviews_count": {}
+    },
+    "evaluation_metric": null
+}

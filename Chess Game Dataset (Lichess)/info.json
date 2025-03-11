@@ -1,0 +1,32 @@
+{
+    "name": "Chess Game Dataset (Lichess)",
+    "source": "https://www.kaggle.com/datasets/datasnaek/chess/data",
+    "data_intro": "This is a set of just over 20,000 games collected from a selection of users on the site Lichess.org, and how to collect more. I will also upload more games in the future as I collect them. This set contains the:",
+    "is_splited": false,
+    "overall_size": 20058,
+    "train_size": 0,
+    "test_size": 0,
+    "c_classes": 9,
+    "n_classes": 7,
+    "cat_feature_intro": {
+        "id": "- Black Player ID;",
+        "victory_status": {},
+        "winner": "- Winner;",
+        "increment_code": {},
+        "white_id": {},
+        "black_id": {},
+        "moves": "- Opening Ply (Number of moves in the opening phase)",
+        "opening_eco": {},
+        "opening_name": {}
+    },
+    "num_feature_intro": {
+        "rated": "- Rated (T/F);",
+        "created_at": {},
+        "last_move_at": {},
+        "turns": "- Number of Turns;",
+        "white_rating": {},
+        "black_rating": {},
+        "opening_ply": {}
+    },
+    "evaluation_metric": null
+}

@@ -1,0 +1,19 @@
+{
+    "name": "ai-mathematical-olympiad-progress-prize-2",
+    "source": "https://www.kaggle.com/competitions/ai-mathematical-olympiad-progress-prize-2",
+    "data_intro": "Solve national-level math challenges using artificial intelligence models",
+    "is_splited": true,
+    "overall_size": 16,
+    "train_size": 0,
+    "test_size": 3,
+    "c_classes": 5,
+    "n_classes": 2,
+    "cat_feature_intro": {
+        "id": {},
+        "problem": {}
+    },
+    "num_feature_intro": {
+        "answer": {}
+    },
+    "evaluation_metric": "Accuracy Score"
+}

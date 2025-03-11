@@ -1,0 +1,26 @@
+{
+    "name": "Indian Startup Funding",
+    "source": "https://www.kaggle.com/datasets/sudalairajkumar/indian-startup-funding/data",
+    "data_intro": null,
+    "is_splited": false,
+    "overall_size": 3044,
+    "train_size": 0,
+    "test_size": 0,
+    "c_classes": 9,
+    "n_classes": 1,
+    "cat_feature_intro": {
+        "Date dd/mm/yyyy": {},
+        "Startup Name": {},
+        "Industry Vertical": {},
+        "SubVertical": {},
+        "City  Location": {},
+        "Investors Name": {},
+        "InvestmentnType": {},
+        "Amount in USD": {},
+        "Remarks": {}
+    },
+    "num_feature_intro": {
+        "Sr No": {}
+    },
+    "evaluation_metric": null
+}

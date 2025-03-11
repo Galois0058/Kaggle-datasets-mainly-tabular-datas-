@@ -1,0 +1,24 @@
+ {
+    "name": "E-Commerce Data",
+    "source": "https://www.kaggle.com/datasets/carrie1/ecommerce-data/data",
+    "data_intro": "This is a transnational data set which contains all the transactions occurring between 01/12/2010 and 09/12/2011 for a UK-based and registered non-store online retail.The company mainly sells unique all-occasion gifts. Many customers of the company are wholesalers." ,
+    "is_splited": false,
+    "overall_size": 541910,
+    "train_size": 0,
+    "test_size": 0,
+    "c_classes": 3,
+    "n_classes": 5,
+    "cat_feature_intro": {
+    "StockCode":{},
+    "Description":{},
+    "Country":{}
+},
+    "num_feature_intro": {
+    "InvoiceNo":{},
+    "Quantity":{},
+    "InvoiceDate":{},
+    "UnitPrice":{},
+    "CustomerID":{}
+},
+    "evaluation_metric":null
+}

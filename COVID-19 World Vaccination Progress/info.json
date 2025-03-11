@@ -1,0 +1,33 @@
+{
+    "name": "COVID-19 World Vaccination Progress",
+    "source": "https://www.kaggle.com/datasets/gpreda/covid-world-vaccination-progress/data",
+    "data_intro": "The data (country vaccinations) contains the following information:",
+    "is_splited": false,
+    "overall_size": 122135,
+    "train_size": 0,
+    "test_size": 0,
+    "c_classes": 9,
+    "n_classes": 10,
+    "cat_feature_intro": {
+        "country": "- In which country the vaccination programme is more advanced?",
+        "iso_code": {},
+        "date": "I would like to specify that I am only making available **Our World in Data** collected data about vaccinations to Kagglers. My contribution is very small, just daily collection, merge and upload of the updated version, as maintained by **Our World in Data** in their GitHub repository.",
+        "vaccines": "* **Vaccines used in the country** - total number of vaccines used in the country (up to date);",
+        "source_name": {},
+        "source_website": {},
+        "location": "* **Location** - country;",
+        "vaccine": "- Which country is using what vaccine?"
+    },
+    "num_feature_intro": {
+        "total_vaccinations": {},
+        "people_vaccinated": {},
+        "people_fully_vaccinated": {},
+        "daily_vaccinations_raw": {},
+        "daily_vaccinations": {},
+        "total_vaccinations_per_hundred": {},
+        "people_vaccinated_per_hundred": {},
+        "people_fully_vaccinated_per_hundred": {},
+        "daily_vaccinations_per_million": {}
+    },
+    "evaluation_metric": null
+}

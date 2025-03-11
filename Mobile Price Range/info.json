@@ -1,0 +1,37 @@
+{
+    "name": "Mobile Price Range",
+    "source": "https://www.kaggle.com/datasets/ybifoundation/mobile-price-range/data",
+    "data_intro": "This dataset was created by Dr. Alok Yadav at YBI Foundation",
+    "is_splited": false,
+    "overall_size": 2000,
+    "train_size": 0,
+    "test_size": 0,
+    "c_classes": 1,
+    "n_classes": 20,
+    "cat_feature_intro": {
+        "PriceRange": {}
+    },
+    "num_feature_intro": {
+        "BatteryPower": {},
+        "InternalMemory": {},
+        "ClockSpeed": {},
+        "NoOfCores": {},
+        "RAM": {},
+        "TalkTime": {},
+        "DualSim": {},
+        "3G": {},
+        "4G": {},
+        "WiFi": {},
+        "Bluetooth": {},
+        "MobileDepth": {},
+        "MobileWeight": {},
+        "TouchScreen": {},
+        "ScreenHeight": {},
+        "ScreenWidth": {},
+        "FrontCameraPx": {},
+        "RearCameraPX": {},
+        "PxHeight": {},
+        "PxWeight": {}
+    },
+    "evaluation_metric": null
+}

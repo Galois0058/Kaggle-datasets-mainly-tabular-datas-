@@ -1,0 +1,35 @@
+{
+    "name": "Customer Shopping Trends Dataset",
+    "source": "https://www.kaggle.com/datasets/iamsouravbanerjee/customer-shopping-trends-dataset/data",
+    "data_intro": "The Customer Shopping Preferences Dataset offers valuable insights into consumer behavior and purchasing patterns. Understanding customer preferences and trends is critical for businesses to tailor their products, marketing strategies, and overall customer experience. This dataset captures a wide range of customer attributes including age, gender, purchase history, preferred payment methods, frequency of purchases, and more. Analyzing this data can help businesses make informed decisions, optimize product offerings, and enhance customer satisfaction. The dataset stands as a valuable resource for businesses aiming to align their strategies with customer needs and preferences. It's important to note that this dataset is a Synthetic Dataset Created for Beginners to learn more about Data Analysis and Machine Learning.",
+    "is_splited": false,
+    "overall_size": 7800,
+    "train_size": 0,
+    "test_size": 0,
+    "c_classes": 27,
+    "n_classes": 10,
+    "cat_feature_intro": {
+        "Gender": "* <b>Gender</b> - Gender of the customer (Male/Female)",
+        "Item Purchased": "* <b>Category</b> - Category of the item purchased",
+        "Category": "* <b>Category</b> - Category of the item purchased",
+        "Location": "* <b>Location</b> - Location where the purchase was made",
+        "Size": "* <b>Size</b> - Size of the purchased item",
+        "Color": "* <b>Color</b> - Color of the purchased item",
+        "Season": "* <b>Season</b> - Season during which the purchase was made",
+        "Subscription Status": "* <b>Subscription Status</b> - Indicates if the customer has a subscription (Yes/No)",
+        "Payment Method": "* <b>Payment Method</b> - Customer's most preferred payment method",
+        "Shipping Type": "* <b>Shipping Type</b> - Type of shipping chosen by the customer",
+        "Discount Applied": "* <b>Discount Applied</b> - Indicates if a discount was applied to the purchase (Yes/No)",
+        "Promo Code Used": "* <b>Promo Code Used</b> - Indicates if a promo code was used for the purchase (Yes/No)",
+        "Preferred Payment Method": "* <b>Payment Method</b> - Customer's most preferred payment method",
+        "Frequency of Purchases": "* <b>Frequency of Purchases</b> - Frequency at which the customer makes purchases (e.g., Weekly, Fortnightly, Monthly)"
+    },
+    "num_feature_intro": {
+        "Customer ID": "* <b>Customer ID</b> - Unique identifier for each customer",
+        "Age": "* <b>Age</b> - Age of the customer",
+        "Purchase Amount (USD)": "* <b>Purchase Amount (USD)</b> - The amount of the purchase in USD",
+        "Review Rating": "* <b>Review Rating</b> - Rating given by the customer for the purchased item",
+        "Previous Purchases": "* <b>Previous Purchases</b> - The total count of transactions concluded by the customer at the store, excluding the ongoing transaction"
+    },
+    "evaluation_metric": null
+}

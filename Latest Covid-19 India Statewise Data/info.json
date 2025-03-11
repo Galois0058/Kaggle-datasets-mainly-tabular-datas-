@@ -1,0 +1,25 @@
+{
+    "name": "Latest Covid-19 India Statewise Data",
+    "source": "https://www.kaggle.com/datasets/anandhuh/latest-covid19-india-statewise-data/data",
+    "data_intro": "This dataset contains latest Covid-19 India state-wise data as on **September 12, 2023**. This dataset can be used to analyze covid in India.",
+    "is_splited": true,
+    "overall_size": 36,
+    "train_size": 0,
+    "test_size": 36,
+    "c_classes": 1,
+    "n_classes": 8,
+    "cat_feature_intro": {
+        "State/UTs": "1. **State/UTs** - Names of Indian States and Union Territories."
+    },
+    "num_feature_intro": {
+        "Total Cases": "8. **Death Ratio (%)** - Ratio of number of deaths to total cases",
+        "Active": "6. **Active Ratio (%)** - Ratio of number of active cases to total cases",
+        "Discharged": "7. **Discharge Ratio (%)** - Ratio of number of discharged cases to total cases",
+        "Deaths": "8. **Death Ratio (%)** - Ratio of number of deaths to total cases",
+        "Active Ratio": "6. **Active Ratio (%)** - Ratio of number of active cases to total cases",
+        "Discharge Ratio": "7. **Discharge Ratio (%)** - Ratio of number of discharged cases to total cases",
+        "Death Ratio": "8. **Death Ratio (%)** - Ratio of number of deaths to total cases",
+        "Population": "Population Data : https://www.indiacensus.net/"
+    },
+    "evaluation_metric": null
+}

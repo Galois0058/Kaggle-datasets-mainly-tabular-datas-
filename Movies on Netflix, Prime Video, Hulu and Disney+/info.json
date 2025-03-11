@@ -1,0 +1,27 @@
+{
+    "name": "Movies on Netflix, Prime Video, Hulu and Disney+",
+    "source": "https://www.kaggle.com/datasets/ruchi798/movies-on-netflix-prime-video-hulu-and-disney/data",
+    "data_intro": "The dataset contains data that was scraped, which comprised a comprehensive list of movies available on various streaming platforms",
+    "is_splited": false,
+    "overall_size": 9515,
+    "train_size": 0,
+    "test_size": 0,
+    "c_classes": 3,
+    "n_classes": 8,
+    "cat_feature_intro": {
+        "Title": {},
+        "Age": "- Target age group movies vs the streaming application they can be found on",
+        "Rotten Tomatoes": {}
+    },
+    "num_feature_intro": {
+        "Unnamed: 0": {},
+        "ID": {},
+        "Year": {},
+        "Netflix": {},
+        "Hulu": {},
+        "Prime Video": {},
+        "Disney+": {},
+        "Type": {}
+    },
+    "evaluation_metric": null
+}

@@ -1,0 +1,35 @@
+{
+    "name": "Crimes in Boston",
+    "source": "https://www.kaggle.com/datasets/AnalyzeBoston/crimes-in-boston/data",
+    "data_intro": "The data is provided by Analyze Boston. The most up-to-date version can be found [here](https://data.boston.gov/dataset/crime-incident-reports-august-2015-to-date-source-new-system).",
+    "is_splited": false,
+    "overall_size": 319649,
+    "train_size": 0,
+    "test_size": 0,
+    "c_classes": 12,
+    "n_classes": 7,
+    "cat_feature_intro": {
+        "INCIDENT_NUMBER": {},
+        "OFFENSE_CODE_GROUP": {},
+        "OFFENSE_DESCRIPTION": {},
+        "DISTRICT": {},
+        "REPORTING_AREA": {},
+        "SHOOTING": {},
+        "OCCURRED_ON_DATE": {},
+        "DAY_OF_WEEK": {},
+        "UCR_PART": {},
+        "STREET": {},
+        "Location": {},
+        "NAME": {}
+    },
+    "num_feature_intro": {
+        "OFFENSE_CODE": {},
+        "YEAR": "Does the frequency of crimes change over the day? Week? Year?",
+        "MONTH": {},
+        "HOUR": {},
+        "Lat": {},
+        "Long": {},
+        "CODE": {}
+    },
+    "evaluation_metric": null
+}

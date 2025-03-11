@@ -1,0 +1,32 @@
+{
+    "name": "Car Features and MSRP",
+    "source": "https://www.kaggle.com/datasets/CooperUnion/cardataset/data",
+    "data_intro": null,
+    "is_splited": false,
+    "overall_size": 11914,
+    "train_size": 0,
+    "test_size": 0,
+    "c_classes": 8,
+    "n_classes": 8,
+    "cat_feature_intro": {
+        "Make": "Cars dataset with features including make, model, year, engine, and other properties of the car used to predict its price.",
+        "Model": "Cars dataset with features including make, model, year, engine, and other properties of the car used to predict its price.",
+        "Engine Fuel Type": {},
+        "Transmission Type": {},
+        "Driven_Wheels": {},
+        "Market Category": {},
+        "Vehicle Size": {},
+        "Vehicle Style": {}
+    },
+    "num_feature_intro": {
+        "Year": "Cars dataset with features including make, model, year, engine, and other properties of the car used to predict its price.",
+        "Engine HP": {},
+        "Engine Cylinders": {},
+        "Number of Doors": {},
+        "highway MPG": {},
+        "city mpg": {},
+        "Popularity": "Price VS. popularity?",
+        "MSRP": {}
+    },
+    "evaluation_metric": null
+}

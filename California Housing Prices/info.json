@@ -1,0 +1,26 @@
+{
+    "name": "California Housing Prices",
+    "source": "https://www.kaggle.com/datasets/camnugent/california-housing-prices/data",
+    "data_intro": "This is the dataset used in the second chapter of Aurélien Géron's recent book 'Hands-On Machine learning with Scikit-Learn and TensorFlow'. It serves as an excellent introduction to implementing machine learning algorithms because it requires rudimentary data cleaning, has an easily understandable list of variables and sits at an optimal size between being to toyish and too cumbersome.",
+    "is_splited": false,
+    "overall_size": 20640,
+    "train_size": 0,
+    "test_size": 0,
+    "c_classes": 1,
+    "n_classes": 9,
+    "cat_feature_intro": {
+        "ocean_proximity": "ocean_proximity"
+    },
+    "num_feature_intro": {
+        "longitude": "longitude",
+        "latitude": "latitude",
+        "housing_median_age": "housing_median_age",
+        "total_rooms": "total_rooms",
+        "total_bedrooms": "total_bedrooms",
+        "population": "population",
+        "households": "households",
+        "median_income": "median_income",
+        "median_house_value": "median_house_value"
+    },
+    "evaluation_metric": null
+}

@@ -1,0 +1,36 @@
+{
+    "name": "Countries of the World",
+    "source": "https://www.kaggle.com/datasets/fernandol/countries-of-the-world/data",
+    "data_intro": null,
+    "is_splited": false,
+    "overall_size": 227,
+    "train_size": 0,
+    "test_size": 0,
+    "c_classes": 17,
+    "n_classes": 3,
+    "cat_feature_intro": {
+        "Country": {},
+        "Region": "When making visualisations related to countries, sometimes it is interesting to group them by attributes such as region, or weigh their importance by population, GDP or other variables.",
+        "Pop. Density (per sq. mi.)": {},
+        "Coastline (coast/area ratio)": {},
+        "Net migration": {},
+        "Infant mortality (per 1000 births)": {},
+        "Literacy (%)": {},
+        "Phones (per 1000)": {},
+        "Arable (%)": {},
+        "Crops (%)": {},
+        "Other (%)": {},
+        "Climate": {},
+        "Birthrate": {},
+        "Deathrate": {},
+        "Agriculture": {},
+        "Industry": {},
+        "Service": {}
+    },
+    "num_feature_intro": {
+        "Population": "When making visualisations related to countries, sometimes it is interesting to group them by attributes such as region, or weigh their importance by population, GDP or other variables.",
+        "Area (sq. mi.)": {},
+        "GDP ($ per capita)": {}
+    },
+    "evaluation_metric": null
+}

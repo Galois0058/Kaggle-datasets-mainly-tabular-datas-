@@ -1,0 +1,29 @@
+{
+    "name": "foot-traffic-wue",
+    "source": "https://www.kaggle.com/competitions/foot-traffic-wue",
+    "data_intro": "Predict pedestrian flow across three bustling streets in Wuerzburg's city center",
+    "is_splited": true,
+    "overall_size": 85341,
+    "train_size": 82821,
+    "test_size": 1008,
+    "c_classes": 18,
+    "n_classes": 13,
+    "cat_feature_intro": {
+        "id": {},
+        "streetname": {},
+        "city": {},
+        "date": {},
+        "weekday": {},
+        "weather_condition": {},
+        "incidents": {},
+        "collection_type": {}
+    },
+    "num_feature_intro": {
+        "n_pedestrians": {},
+        "n_pedestrians_towards": {},
+        "n_pedestrians_away": {},
+        "hour": {},
+        "temperature": {}
+    },
+    "evaluation_metric": "Mean Squared Error"
+}

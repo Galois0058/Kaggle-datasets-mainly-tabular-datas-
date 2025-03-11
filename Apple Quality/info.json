@@ -1,0 +1,25 @@
+{
+    "name": "Apple Quality",
+    "source": "https://www.kaggle.com/datasets/nelgiriyewithana/apple-quality/data",
+    "data_intro": "The dataset was generously provided by an American agriculture company. The data has been scaled and cleaned for ease of use.",
+    "is_splited": false,
+    "overall_size": 4001,
+    "train_size": 0,
+    "test_size": 0,
+    "c_classes": 2,
+    "n_classes": 7,
+    "cat_feature_intro": {
+        "Acidity": "- **Acidity**: *Acidity level of the fruit*",
+        "Quality": "- **Quality Prediction:** Build a model to predict the quality rating of fruits using various attributes."
+    },
+    "num_feature_intro": {
+        "A_id": "&gt;- **A_id**: *Unique identifier for each fruit*",
+        "Size": "- **Size**: *Size of the fruit*",
+        "Weight": "- **Weight**: *Weight of the fruit*",
+        "Sweetness": "- **Sweetness**: *Degree of sweetness of the fruit*",
+        "Crunchiness": "- **Crunchiness**: *Texture indicating the crunchiness of the fruit*",
+        "Juiciness": "- **Juiciness**: *Level of juiciness of the fruit*",
+        "Ripeness": "- **Ripeness**: *Stage of ripeness of the fruit*"
+    },
+    "evaluation_metric": null
+}

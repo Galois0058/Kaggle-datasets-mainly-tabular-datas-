@@ -1,0 +1,37 @@
+{
+    "name": "Gender Recognition by Voice",
+    "source": "https://www.kaggle.com/datasets/primaryobjects/voicegender/data",
+    "data_intro": "This database was created to identify a voice as male or female, based upon acoustic properties of the voice and speech. The dataset consists of 3,168 recorded voice samples, collected from male and female speakers. The voice samples are pre-processed by acoustic analysis in R using the seewave and tuneR packages, with an analyzed frequency range of 0hz-280hz ([human vocal range][2]).",
+    "is_splited": false,
+    "overall_size": 3168,
+    "train_size": 0,
+    "test_size": 0,
+    "c_classes": 1,
+    "n_classes": 20,
+    "cat_feature_intro": {
+        "label": "- **label**: male or female"
+    },
+    "num_feature_intro": {
+        "meanfreq": "- **meanfreq**: mean frequency (in kHz)",
+        "sd": "- **sd**: standard deviation of frequency",
+        "median": "- **median**: median frequency (in kHz)",
+        "Q25": "- **Q25**: first quantile (in kHz)",
+        "Q75": "- **Q75**: third quantile (in kHz)",
+        "IQR": "- **IQR**: interquantile range (in kHz)",
+        "skew": "- **skew**: skewness (see note in specprop description)",
+        "kurt": "- **kurt**: kurtosis (see note in specprop description)",
+        "sp.ent": "- **sp.ent**: spectral entropy",
+        "sfm": "- **sfm**: spectral flatness",
+        "mode": "![CART model][4]",
+        "centroid": "- **centroid**: frequency centroid (see specprop)",
+        "meanfun": "- **meanfun**: average of fundamental frequency measured across acoustic signal",
+        "minfun": "- **minfun**: minimum fundamental frequency measured across acoustic signal",
+        "maxfun": "- **maxfun**: maximum fundamental frequency measured across acoustic signal",
+        "meandom": "- **meandom**: average of dominant frequency measured across acoustic signal",
+        "mindom": "- **mindom**: minimum of dominant frequency measured across acoustic signal",
+        "maxdom": "- **maxdom**: maximum of dominant frequency measured across acoustic signal",
+        "dfrange": "- **dfrange**: range of dominant frequency measured across acoustic signal",
+        "modindx": "- **modindx**: modulation index. Calculated as the accumulated absolute difference between adjacent measurements of fundamental frequencies divided by the frequency range"
+    },
+    "evaluation_metric": null
+}

@@ -1,0 +1,36 @@
+{
+    "name": "Credit Card Approval Prediction",
+    "source": "https://www.kaggle.com/datasets/rikdifos/credit-card-approval-prediction/data",
+    "data_intro": "There're two tables could be merged by `ID`:",
+    "is_splited": false,
+    "overall_size": 1487132,
+    "train_size": 0,
+    "test_size": 0,
+    "c_classes": 9,
+    "n_classes": 12,
+    "cat_feature_intro": {
+        "CODE_GENDER": "| `CODE_GENDER`       | Gender                    | 　                                                                                                                                                                                                                            |",
+        "FLAG_OWN_CAR": "| `FLAG_OWN_CAR`        | Is there a car            | 　                                                                                                                                                                                                                            |",
+        "FLAG_OWN_REALTY": "| `FLAG_OWN_REALTY`     | Is there a property       | 　                                                                                                                                                                                                                            |",
+        "NAME_INCOME_TYPE": "| `NAME_INCOME_TYPE`    | Income category           | 　                                                                                                                                                                                                                            |",
+        "NAME_EDUCATION_TYPE": "| `NAME_EDUCATION_TYPE` | Education level           | 　                                                                                                                                                                                                                            |",
+        "NAME_FAMILY_STATUS": "| `NAME_FAMILY_STATUS`  | Marit...",
+        "NAME_HOUSING_TYPE": {},
+        "OCCUPATION_TYPE": {},
+        "STATUS": "| `NAME_FAMILY_STATUS`  | Marit..."
+    },
+    "num_feature_intro": {
+        "ID": "| `ID`                    | Client number             | 　                                                                                                                                                                                                                            |",
+        "CNT_CHILDREN": "| `CNT_CHILDREN`        | Number of children        | 　                                                                                                                                                                                                                            |",
+        "AMT_INCOME_TOTAL": "| `AMT_INCOME_TOTAL`    | Annual income             | 　                                                                                                                                                                                                                            |",
+        "DAYS_BIRTH": {},
+        "DAYS_EMPLOYED": {},
+        "FLAG_MOBIL": {},
+        "FLAG_WORK_PHONE": {},
+        "FLAG_PHONE": {},
+        "FLAG_EMAIL": {},
+        "CNT_FAM_MEMBERS": {},
+        "MONTHS_BALANCE": {}
+    },
+    "evaluation_metric": null
+}

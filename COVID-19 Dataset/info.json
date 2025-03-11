@@ -1,0 +1,37 @@
+{
+    "name": "COVID-19 Dataset",
+    "source": "https://www.kaggle.com/datasets/meirnizri/covid19-dataset/data",
+    "data_intro": "The main goal of this project is to build a machine learning model that, given a Covid-19 patient's current symptom, status, and medical history, will predict whether the patient is in high risk or not.",
+    "is_splited": false,
+    "overall_size": 1048575,
+    "train_size": 0,
+    "test_size": 0,
+    "c_classes": 1,
+    "n_classes": 20,
+    "cat_feature_intro": {
+        "DATE_DIED": {}
+    },
+    "num_feature_intro": {
+        "USMER": {},
+        "MEDICAL_UNIT": {},
+        "SEX": "-\tsex:  1 for female and 2 for male.",
+        "PATIENT_TYPE": {},
+        "INTUBED": "-\tintubed: whether the patient was connected to the ventilator.",
+        "PNEUMONIA": "-\tpneumonia: whether the patient already have air sacs inflammation or not.",
+        "AGE": "-\tage: of the patient.",
+        "PREGNANT": "-\tpregnancy: whether the patient is pregnant or not.",
+        "DIABETES": "-\tdiabetes: whether the patient has diabetes or not.",
+        "COPD": "-\tcopd: Indicates whether the patient has Chronic obstructive pulmonary disease or not.",
+        "ASTHMA": "-\tasthma: whether the patient has asthma or not.",
+        "INMSUPR": "-\tinmsupr: whether the patient is immunosuppressed or not.",
+        "HIPERTENSION": {},
+        "OTHER_DISEASE": {},
+        "CARDIOVASCULAR": "-\tcardiovascular: whether the patient has heart or blood vessels related disease.",
+        "OBESITY": "-\tobesity: whether the patient is obese or not.",
+        "RENAL_CHRONIC": {},
+        "TOBACCO": "-\ttobacco: whether the patient is a tobacco user.",
+        "CLASIFFICATION_FINAL": {},
+        "ICU": "-\ticu: Indicates whether the patient had been admitted to an Intensive Care Unit."
+    },
+    "evaluation_metric": null
+}

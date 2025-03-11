@@ -1,0 +1,23 @@
+{
+    "name": " Medical Cost Personal Datasets",
+    "source": "https://www.kaggle.com/datasets/mirichoi0218/insurance/data",
+    "data_intro": "The dataset is available on GitHub [here](https://github.com/stedy/Machine-Learning-with-R-datasets).",
+    "is_splited": false,
+    "overall_size": 1338,
+    "train_size": 0,
+    "test_size": 0,
+    "c_classes": 3,
+    "n_classes": 4,
+    "cat_feature_intro": {
+        "sex": "- sex: insurance contractor gender, female, male",
+        "smoker": "- smoker: Smoking",
+        "region": "- region: the beneficiary's residential area in the US, northeast, southeast, southwest, northwest."
+    },
+    "num_feature_intro": {
+        "age": "- age: age of primary beneficiary",
+        "bmi": "- bmi: Body mass index, providing an understanding of body, weights that are relatively high or low relative to height,",
+        "children": "- children: Number of    children covered by health insurance / Number of dependents",
+        "charges": "- charges: Individual medical costs billed by health insurance"
+    },
+    "evaluation_metric": null
+}

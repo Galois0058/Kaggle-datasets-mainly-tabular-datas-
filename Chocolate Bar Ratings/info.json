@@ -1,0 +1,25 @@
+{
+    "name": "Chocolate Bar Ratings",
+    "source": "https://www.kaggle.com/datasets/rtatman/chocolate-bar-ratings/data",
+    "data_intro": "The database is narrowly focused on plain dark chocolate with an aim of appreciating the flavors of the cacao when made into chocolate. The ratings do not reflect health benefits, social missions, or organic status.",
+    "is_splited": false,
+    "overall_size": 1795,
+    "train_size": 0,
+    "test_size": 0,
+    "c_classes": 6,
+    "n_classes": 3,
+    "cat_feature_intro": {
+        "Company \n(Maker-if known)": {},
+        "Specific Bean Origin\nor Bar Name": {},
+        "Cocoa\nPercent": {},
+        "Company\nLocation": {},
+        "Bean\nType": {},
+        "Broad Bean\nOrigin": {}
+    },
+    "num_feature_intro": {
+        "REF": "**Overall** Opinion is really where the ratings reflect a subjective opinion. Ideally it is my evaluation of whether or not the components above worked together and an opinion on the flavor development, character and style. It is also here where each chocolate can usually be summarized by the most prominent impressions that you would remember about each chocolate.",
+        "Review\nDate": {},
+        "Rating": "* What’s the relationship between cocoa solids percentage and rating?"
+    },
+    "evaluation_metric": null
+}

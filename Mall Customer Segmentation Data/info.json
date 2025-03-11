@@ -1,0 +1,21 @@
+{
+    "name": "Mall Customer Segmentation Data",
+    "source": "https://www.kaggle.com/datasets/vjchoudhary7/customer-segmentation-tutorial-in-python/data",
+    "data_intro": "This data set is created only for the learning purpose of the customer segmentation concepts , also known as market basket analysis . I will demonstrate this by using unsupervised ML technique (KMeans Clustering Algorithm) in the simplest form.",
+    "is_splited": false,
+    "overall_size": 200,
+    "train_size": 0,
+    "test_size": 0,
+    "c_classes": 1,
+    "n_classes": 4,
+    "cat_feature_intro": {
+        "Gender": "You are owing a supermarket mall and through membership cards , you have some basic data about your customers like Customer ID, age, gender, annual income and spending score."
+    },
+    "num_feature_intro": {
+        "CustomerID": {},
+        "Age": "You are owing a supermarket mall and through membership cards , you have some basic data about your customers like Customer ID, age, gender, annual income and spending score.",
+        "Annual Income (k$)": {},
+        "Spending Score (1-100)": {}
+    },
+    "evaluation_metric": null
+}

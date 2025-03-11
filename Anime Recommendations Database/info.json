@@ -1,0 +1,24 @@
+{
+    "name": "Anime Recommendations Database",
+    "source": "https://www.kaggle.com/datasets/CooperUnion/anime-recommendations-database/data",
+    "data_intro": "This data set contains information on user preference data from 73,516 users on 12,294 anime. Each user is able to add anime to their completed list and give it a rating and this data set is a compilation of those ratings.",
+    "is_splited": false,
+    "overall_size": 7826031,
+    "train_size": 0,
+    "test_size": 0,
+    "c_classes": 4,
+    "n_classes": 6,
+    "cat_feature_intro": {
+        "name": "- name - full name of anime.",
+        "genre": "- genre - comma separated list of genres for this anime.",
+        "type": "- type - movie, TV, OVA, etc.",
+        "episodes": "- episodes - how many episodes in this show. (1 if movie)."
+    },
+    "num_feature_intro": {
+        "anime_id": "- anime_id - the anime that this user has rated.",
+        "rating": "Thanks to myanimelist.net API for providing anime data and user ratings.",
+        "members": "- members - number of community members that are in this anime's",
+        "user_id": "- user_id - non identifiable randomly generated user id."
+    },
+    "evaluation_metric": null
+}

@@ -1,0 +1,25 @@
+{
+    "name": "llm-classification-finetuning",
+    "source": "https://www.kaggle.com/competitions/llm-classification-finetuning",
+    "data_intro": "Finetune LLMs to Predict Human Preference using Chatbot Arena conversations",
+    "is_splited": true,
+    "overall_size": 57483,
+    "train_size": 57477,
+    "test_size": 3,
+    "c_classes": 8,
+    "n_classes": 9,
+    "cat_feature_intro": {
+        "prompt": {},
+        "response_a": {},
+        "response_b": {},
+        "model_a": {},
+        "model_b": {}
+    },
+    "num_feature_intro": {
+        "id": {},
+        "winner_model_a": {},
+        "winner_model_b": {},
+        "winner_tie": {}
+    },
+    "evaluation_metric": "Log Loss"
+}
